@@ -49,6 +49,7 @@
 - `OPTION + RIGHT/LEFT_ARROW + E` → navigate on line on prompt
 - `<ANY_CLI_TOOL> + TAB` → completions menu
 - `<ANY_CLI_TOOL> + CTRL + P/N` → completions cycle from history
+- `<ANY_CLI_TOOL> ** + TAB` → enhanced fuzzy completion
 
 ### Vscode/Cursor
 
@@ -58,6 +59,7 @@
 - `CTRL + W THEN s` → Split Horizontal
 - `CTRL + W THEN v` → Split Vertical
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
+- `CTRL + W THEN CTRL + W` → Navigate to next split screen
 - `CMD + P` → File window
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window
@@ -69,6 +71,7 @@
 - `CTRL + W THEN s` → Split Horizontal
 - `CTRL + W THEN v` → Split Vertical
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
+- `CTRL + W THEN CTRL + W` → Navigate to next split screen
 - `<leader> + F` → Telescope file finding
 - `<leader> + F + G` → Live Grep through files
 - `normalmode CTRL + P` → Telescope file finding
