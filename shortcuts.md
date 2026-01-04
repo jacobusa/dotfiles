@@ -34,8 +34,6 @@
 
 ### Wezterm
 
-- `CMD + +` → Zoom In
-- `CTRL + SHIFT + -` → Zoom Out
 - `CMD + T` → New window
 - `CMD + \` → Split Horizontal
 - `CMD + ]` → Split Vertical
@@ -78,6 +76,7 @@
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
 - `normalmode CTRL + N` → Neotree toggle
+- `neotreefocus A` → Add new directory or file
 
 ## Linux
 
