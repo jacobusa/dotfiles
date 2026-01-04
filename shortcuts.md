@@ -25,6 +25,7 @@
 - `CMD + 2` → Browser
 - `CMD + 3` → Cursor/NVIM
 - `CMD + 4` → Parallels/Ubuntu
+- `CMD + 5` → Notion
 
 ### Wezterm
 
