@@ -13,6 +13,7 @@
 - `CTRL + LEFT/RIGHT_ARROW` → Switch between active windows
 - `CMD + \` ` → Next Instance of App
 - `CMD + W ` → Delete Window
+- `CMD + Q ` → Quit App
 
 ### Raycast (Need to setup manually through settings)
 
