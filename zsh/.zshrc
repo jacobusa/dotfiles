@@ -62,6 +62,10 @@ alias lt="eza --tree --level=2 --long --icons --git"
 alias ltree="eza --tree --level=2  --icons --git"
 alias fe='eza --icons | fzf --preview="eza --long --icons --git {}"'
 alias fet='eza --tree --icons | fzf'
+# fd helpers
+alias f='fd --color=always'            # simple search
+alias ff='fd --color=always --type f'  # files only
+alias fd='fd --color=always --type d'  # directories only
 # zoxide helpers
 alias z='z'          # jump (default)
 alias zi='zi'        # interactive fzf picker

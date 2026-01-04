@@ -19,7 +19,6 @@ chsh -s $(zsh)
 # CLIs
 brew install git
 brew install stow
-brew install neovim
 brew install docker
 brew install starship
 brew install fzf
@@ -28,6 +27,10 @@ brew install zoxide
 brew install bat
 brew install screenfetch
 brew install nvm
+# neovim
+brew install ripgrep
+brew install fd
+brew install neovim
 # GUIs
 brew install --cask raycast
 brew install --cask wezterm
