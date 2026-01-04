@@ -6,6 +6,8 @@
 
 ### General
 
+- `CMD + +` → Zoom In
+- `CMD + -` → Zoom Out
 - `CMD + C` → Copy
 - `cmd + v` → Paste
 - `CMD + TAB` → Application Switcher
@@ -50,8 +52,6 @@
 
 ### Vscode/Cursor
 
-- `CMD + +` → Zoom In
-- `CMD + -` → Zoom Out
 - `CMD + B` → File tree toggle
 - `CMD + OPTION + B` → Agent Chat toggle
 - `CMD + OPTION + S` → Agent Chats List toggle
@@ -66,6 +66,8 @@
 
 - `<leader>` === `SPACE`
 - `insertmode to normalmode` → Go from insert mode to normal mode customization
+- `CTRL + W THEN s` → Split Horizontal
+- `CTRL + W THEN v` → Split Vertical
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `<leader> + F` → Telescope file finding
 - `<leader> + F + G` → Live Grep through files
