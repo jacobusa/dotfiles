@@ -62,6 +62,7 @@ alias z='z'          # jump (default)
 alias zi='zi'        # interactive fzf picker
 alias cd='z'
 alias cdd='command cd'
+alias cdf='cd "$(dirname "$(fzf)")"'
 # search files
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 

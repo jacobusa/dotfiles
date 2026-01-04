@@ -37,7 +37,7 @@
 - `CTRL + SHIFT + TAB` → Go to previous tab
 - `CTRL + J/K/H/L` → Navigate within a split screen
 - `CTRL + R` → history finder
-- `CTRL + T` → file finder
+- `CTRL + T` → fuzzy fzf file finder
 - `CTRL + W` → delete word go back on prompt
 - `CTRL + A` → go back entire line on prompt
 - `CTRL + E` → go back entire line on prompt
