@@ -1,0 +1,75 @@
+# This is Git's per-user configuration file.
+# [include]
+#     path = ~/.gitconfig.local
+
+# [credential] # use SSH instead of HTTPS
+#     helper = osxkeychain # mac
+#     helper = store # linux
+[pager]
+	branch = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+    rebase = true
+    prune = true
+[push]
+    default = current
+[rebase]
+    autoStash = false
+[fetch]
+    prune = true
+[color]
+    ui = auto
+[core]
+	autocrlf = input
+    editor = nvim
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[alias]
+    co = checkout
+    cm = commit
+    cmm = commit -m
+    cma = commit --amend -m
+    st = status
+    sw = switch
+    rs = restore
+    br = branch -v
+    brr = branch -rv
+    brd = branch -d
+    brD = branch -D
+    ps = push
+    psf = push -f
+    psu = push -u origin
+    pl = pull -v
+    ftc = fetch -v
+    difc = diff --cached
+    rpo = remote prune origin
+    rbc = rebase --continue
+    oops = reset --soft HEAD~1
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+    stats1 = shortlog -sn --since='1 week'
+    stats2 = shortlog -sn --since='2 weeks'
+    recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+    overview = log --oneline --no-merges
+    overview-all = log --all --oneline --no-merges
+    recap = log --all --oneline --no-merges --author=4650644+esond@users.noreply.github.com
+    today = log --since=00:00:00 --all --no-merges --oneline --author=4650644+esond@users.noreply.github.com
+    graph = log --graph --all --decorate --stat --date=iso
+[init]
+	defaultBranch = main
+[user]
+	name = Kobus
+	email = jacobusbad@gmail.com
+[github]
+	user = jacobusa

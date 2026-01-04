@@ -1,0 +1,70 @@
+set relativenumber
+set number
+let mapleader = " "
+set mapleader = " "
+
+" https://superuser.com/questions/622898/how-to-turn-off-the-bell-sound-in-intellij
+" https://stackoverflow.com/questions/63386803/how-to-turn-off-a-bell-in-intellij-idea
+set visualbell
+
+" https://github.com/JetBrains/ideavim/blob/master/doc/emulated-plugins.md
+
+set surround
+
+" https://youtrack.jetbrains.com/issue/VIM-1970
+set highlightedyank
+
+" https://youtrack.jetbrains.com/issue/VIM-959
+set ideamarks
+
+" https://github.com/JetBrains/ideavim/wiki/%60ideajoin%60-examples
+set ideajoin
+
+" https://youtrack.jetbrains.com/issue/VIM-1521
+set commentary
+set which-key
+
+" dia daa cia caa
+set argtextobj
+
+" die dae cie cae
+set textobj-entire
+
+" https://youtrack.jetbrains.com/issue/VIM-1042
+set NERDTree
+set nerdtree
+let NERDTreeMapActivateNode='l'
+
+" https://github.com/JetBrains/ideavim/wiki/Emulated-plugins#vim-paragraph-motion
+set vim-paragraph-motion
+
+" https://github.com/JetBrains/ideavim/wiki/Emulated-plugins#vim-indent-object
+set textobj-indent
+
+set exchange
+imap jk <Esc>
+imap <C-w>
+nmap gh K
+nmap J 4j
+nmap K 4k
+" Quick window navigation
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+map <C-H> <C-W>h
+map <leader>j 
+" map <leader>h <Action>(ShowErrorDescription)
+" map <leader>h <Action>(QuickDocumentation)
+" map <leader>h <Action>(QuickDefinition)
+
+" Greatest remap EVER!!
+" Let me explain, this remap while in visiual mode
+" will delete what is currently highlighted and replace it
+" with what is in the register BUT it will YANK (delete) it
+" to a VOID register. Meaning I still have what I originally had
+" when I pasted. I don't loose the previous thing I YANKED!
+" vnoremap <leader>p _dP
+nmap gh :action QuickDocumentation<CR>
+" nmap gh :action QuickDocumentation<ErrorDescription>
+set timeoutlen=1000
+

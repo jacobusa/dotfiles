@@ -1,0 +1,172 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00",
+    "terminal.integrated.fontWeightBold": "normal"
+  },
+  // "prettier.useTabs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnType": true,
+  "editor.suggestSelection": "first",
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "scm.showIncomingChanges": "never",
+  "scm.showOutgoingChanges": "never",
+  "eslint.format.enable": true,
+  // "terminal.integrated.shellArgs.osx": [],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "css.enabledLanguages": [
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "jupyter.runStartupCommands": ["%load_ext autoreload", "%autoreload 2"],
+  "[go]": {
+    // "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "vim.easymotion": true,
+  "vim.surround": true,
+  // "editor.lineNumbers": "relative",
+  "vim.leader": "<Space>",
+  "vim.easymotionMarkerBackgroundColor": "yellow",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "after": ["J"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<Leader>", "/"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<Leader>", "t"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["<Leader>", "h"],
+      "commands": ["editor.action.showHover"]
+    }
+  ],
+  "vim.easymotionMarkerFontWeight": "bold",
+  "vim.searchHighlightColor": "rgb(255, 234, 0,.4)",
+  "vim.searchHighlightTextColor": "red",
+  "vim.easymotionMarkerForegroundColorTwoCharSecond": "yellow",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.cursorWidth": 6,
+  "html.format.enable": false,
+  "editor.suggest.showStatusBar": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.mergeEditor": false,
+  "redhat.telemetry.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none",
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": false,
+  "workbench.editor.empty.hint": "hidden",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -1,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "playwright.runGlobalSetupOnEachRun": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "dart.flutterSdkPath": "/Users/jacobus/flutter/flutter"
+}
