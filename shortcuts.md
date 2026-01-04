@@ -18,6 +18,7 @@
 - `CMD + \` ` → Next Instance of App
 - `CMD + W ` → Delete Window
 - `CMD + Q ` → Quit App
+- `CMD + N ` → New command (context specific but universal)
 
 ### Raycast (Need to setup manually through settings)
 
@@ -76,6 +77,7 @@
 - `<leader> + F + G` → Live Grep through files
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
+- `normalmode CTRL + N` → Neotree toggle
 
 ## Linux
 
