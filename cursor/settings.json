@@ -1,0 +1,73 @@
+{
+    "window.commandCenter": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<esc>"]
+      }
+    ],
+    "vim.easymotion": true,
+    "vim.surround": true,
+    // "editor.lineNumbers": "relative",
+    "vim.leader": "<Space>",
+    "vim.easymotionMarkerBackgroundColor": "yellow",
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["J"],
+        "after": ["5", "j"]
+      },
+      {
+        "before": ["K"],
+        "after": ["5", "k"]
+      },
+      {
+        "before": ["<Leader>", "j"],
+        "after": ["J"]
+      },
+      {
+        "before": ["<C-h>"],
+        "after": ["<C-w>", "h"]
+      },
+      {
+        "before": ["<C-j>"],
+        "after": ["<C-w>", "j"]
+      },
+      {
+        "before": ["<C-k>"],
+        "after": ["<C-w>", "k"]
+      },
+      {
+        "before": ["<C-l>"],
+        "after": ["<C-w>", "l"]
+      },
+      {
+        "before": ["<Leader>", "/"],
+        "commands": [":noh"]
+      },
+      {
+        "before": ["<Leader>", "p"],
+        "commands": ["workbench.action.showCommands"]
+      },
+      {
+        "before": ["<Leader>", "t"],
+        "commands": ["workbench.action.gotoSymbol"]
+      },
+      {
+        "before": ["<Leader>", "i"],
+        "commands": ["editor.action.showHover"]
+      }
+    ],
+    "vim.easymotionMarkerFontWeight": "bold",
+    "vim.searchHighlightColor": "rgb(255, 234, 0,.4)",
+    "vim.searchHighlightTextColor": "red",
+    "vim.easymotionMarkerForegroundColorTwoCharSecond": "yellow",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "deno.cache": "/Users/jacobus/.deno",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.composer.usageSummaryDisplay": "always",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Cursor Dark High Contrast"
+  }
+  
