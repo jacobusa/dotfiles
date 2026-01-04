@@ -1,5 +1,7 @@
 # Keyboard Shortcuts
 
+> These are listed from most general (work on most apps) to more specific (likely only work on that app and below) for that OS
+
 ## macOS
 
 ### General
@@ -34,9 +36,9 @@
 - `CMD + T` → New window
 - `CMD + \` → Split Horizontal
 - `CMD + ]` → Split Vertical
+- `CTRL + J/K/H/L` → Navigate within a split screen
 - `CTRL + TAB` → Go to next tab
 - `CTRL + SHIFT + TAB` → Go to previous tab
-- `CTRL + J/K/H/L` → Navigate within a split screen
 - `CTRL + R` → history finder
 - `CTRL + T` → fuzzy fzf file finder
 - `CTRL + W` → delete word go back on prompt
@@ -44,6 +46,7 @@
 - `CTRL + E` → go back entire line on prompt
 - `OPTION + RIGHT/LEFT_ARROW + E` → navigate on line on prompt
 - `<ANY_CLI_TOOL> + TAB` → completions menu
+- `<ANY_CLI_TOOL> + CTRL + P/N` → completions cycle from history
 
 ### Vscode/Cursor
 
@@ -52,9 +55,22 @@
 - `CMD + B` → File tree toggle
 - `CMD + OPTION + B` → Agent Chat toggle
 - `CMD + OPTION + S` → Agent Chats List toggle
+- `CTRL + W THEN s` → Split Horizontal
+- `CTRL + W THEN v` → Split Vertical
+- `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `CMD + P` → File window
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window
+
+### Neovim
+
+- `<leader>` === `SPACE`
+- `insertmode to normalmode` → Go from insert mode to normal mode customization
+- `CTRL + W THEN J/K/H/L` → Navigate within a split screen
+- `<leader> + F` → Telescope file finding
+- `<leader> + F + G` → Live Grep through files
+- `normalmode CTRL + P` → Telescope file finding
+- `insertmode CTRL + P/N` → Autocomplete menu
 
 ## Linux
 
