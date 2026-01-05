@@ -50,7 +50,23 @@
 - `<ANY_CLI_TOOL> + CTRL + P/N` → completions cycle from history
 - `<ANY_CLI_TOOL> ** + TAB` → enhanced fuzzy completion
 
-### Vscode/Cursor
+### Neovim
+
+- `<leader>` === `SPACE`
+- `insertmode to normalmode` → Go from insert mode to normal mode customization
+- `CTRL + W THEN s` → Split Horizontal
+- `CTRL + W THEN v` → Split Vertical
+- `CTRL + J/K/H/L` → Navigate within a split screen
+- `CTRL + W THEN CTRL + W` → Navigate to next split screen
+- `<leader> + F` → Telescope file finding
+- `<leader> + F + G` → Live Grep through files
+- `normalmode CTRL + P` → Telescope file finding
+- `insertmode CTRL + P/N` → Autocomplete menu
+- `normalmode CTRL + N` → Neotree toggle
+- `neotreefocus A` → Add new directory or file
+- `G + H ` → Info window
+
+### Cursor
 
 - `CMD + B` → File tree toggle
 - `CMD + OPTION + B` → Agent Chat toggle
@@ -62,21 +78,7 @@
 - `CMD + P` → File window
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window
-
-### Neovim
-
-- `<leader>` === `SPACE`
-- `insertmode to normalmode` → Go from insert mode to normal mode customization
-- `CTRL + W THEN s` → Split Horizontal
-- `CTRL + W THEN v` → Split Vertical
-- `CTRL + W THEN J/K/H/L` → Navigate within a split screen
-- `CTRL + W THEN CTRL + W` → Navigate to next split screen
-- `<leader> + F` → Telescope file finding
-- `<leader> + F + G` → Live Grep through files
-- `normalmode CTRL + P` → Telescope file finding
-- `insertmode CTRL + P/N` → Autocomplete menu
-- `normalmode CTRL + N` → Neotree toggle
-- `neotreefocus A` → Add new directory or file
+- `G + H ` → Info window
 
 ## Linux
 
