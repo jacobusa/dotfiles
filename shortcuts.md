@@ -35,9 +35,10 @@
 ### Wezterm
 
 - `CMD + T` → New window
+- `CMD + \` ` → Next Instance of Wezterm
 - `CMD + \` → Split Horizontal
 - `CMD + ]` → Split Vertical
-- `CTRL + J/K/H/L` → Navigate within a split screen
+- `CMD + H/J/K/L` → Navigate within a split screen
 - `CTRL + TAB` → Go to next tab
 - `CTRL + SHIFT + TAB` → Go to previous tab
 - `CTRL + R` → history finder
@@ -57,7 +58,11 @@
 - `CTRL + W THEN s` → Split Horizontal
 - `CTRL + W THEN v` → Split Vertical
 - `CTRL + J/K/H/L` → Navigate within a split screen
+- `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
+- `CTRL + O` → Go back to last thing you touched
+- `U` → Undo
+- `CTRL + R` → Redo
 - `<leader> + F` → Telescope file finding
 - `<leader> + F + G` → Live Grep through files
 - `normalmode CTRL + P` → Telescope file finding
@@ -71,10 +76,15 @@
 - `CMD + B` → File tree toggle
 - `CMD + OPTION + B` → Agent Chat toggle
 - `CMD + OPTION + S` → Agent Chats List toggle
+- `CMD + SHIFT + E` → Focus file tree and can navigate using h/j/k/l
 - `CTRL + W THEN s` → Split Horizontal
 - `CTRL + W THEN v` → Split Vertical
+- `CTRL + J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
+- `CTRL + O` → Go back to last thing you touched
+- `U` → Undo
+- `CTRL + R` → Redo
 - `CMD + P` → File window
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window

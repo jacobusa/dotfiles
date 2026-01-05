@@ -12,7 +12,7 @@ config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 12
 
--- config.enable_tab_bar = false
+config.enable_tab_bar = false
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.9
@@ -34,10 +34,10 @@ config.keys = {
 	{ key = '\\', mods = 'CMD', action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' }, },
 	{ key = ']', mods = 'CMD', action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }, },
   -- Move between panes (like VS Code / Vim)
-  { key = 'h', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection('Left') },
-  { key = 'l', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection('Right') },
-  { key = 'k', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection('Up') },
-  { key = 'j', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection('Down') },
+  { key = 'h', mods = 'CMD', action = wezterm.action.ActivatePaneDirection('Left') },
+  { key = 'l', mods = 'CMD', action = wezterm.action.ActivatePaneDirection('Right') },
+  { key = 'k', mods = 'CMD', action = wezterm.action.ActivatePaneDirection('Up') },
+  { key = 'j', mods = 'CMD', action = wezterm.action.ActivatePaneDirection('Down') },
     -- Option + Left → move backward one word
   { key = "LeftArrow", mods = "OPT", action = wezterm.action.SendString("\x1bb"), },
   -- Option + Right → move forward one word
