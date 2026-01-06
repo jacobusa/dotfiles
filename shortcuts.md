@@ -60,6 +60,7 @@
 
 - `<leader>` === `SPACE`
 - `insertmode to normalmode` → Go from insert mode to normal mode customization
+- `ESCAPE` → Escapes most actions. also try q
 - `CTRL + W THEN s` → Split Horizontal
 - `CTRL + W THEN v` → Split Vertical
 - `CTRL + J/K/H/L` → Navigate within a split screen
@@ -70,6 +71,8 @@
 - `CTRL + R` → Redo
 - `<leader> + F` → Telescope file finding
 - `<leader> + F + G` → Live Grep through files
+- `<leader> + E` → Neotree Toggle
+- `<leader> + C + M` → LSP servers
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
 - `normalmode CTRL + N` → Neotree toggle
@@ -77,6 +80,7 @@
 - `G + H ` → Info window
 - `G + D ` → Go to definition
 - `G + R ` → Go to Reference
+- `:` → Colon. Comamnd line
 
 ### Cursor
 
