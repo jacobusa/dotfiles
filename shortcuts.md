@@ -69,10 +69,28 @@
 - `CTRL + O` → Go back to last thing you touched
 - `U` → Undo
 - `CTRL + R` → Redo
+- `CTRL + SPACE` → Autocomplete help
 - `<leader> + F` → Telescope file finding
 - `<leader> + F + G` → Live Grep through files
 - `<leader> + E` → Neotree Toggle
 - `<leader> + C + M` → LSP servers
+- `<leader>ff` → Telescipe file filder
+- `<leader>sg` → Grep finder
+- `<leader>xx` → View file diagnostics
+- `<leader>ca` → View code actions
+- `<leader>fb` → View open files/buffers
+- `<leader>|` → Split vertical
+- `<leader>-` → Split horizontal
+- `<leader>sh` → See help pages
+- `<leader>st` → Search for todos
+- `<leader>sk` → Find keymaps
+- `<leader>sk` → Find keymaps
+- `<leader>l` → Launch Lazy
+- `<leader>ul` → Toggle line numbers
+- `<leader>sr` → Global search replace
+- `<leader>g` → Lazy git commands
+- `<leader>ft` → Launch terminal from neovim. Type exit or CTRL + D to exit
+- `SHIFT + K` → Show hover documentation
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
 - `normalmode CTRL + N` → Neotree toggle
