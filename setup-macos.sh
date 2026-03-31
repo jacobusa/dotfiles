@@ -47,3 +47,4 @@ stow wezterm
 stow starship
 stow nvim
 stow git
+stow npm

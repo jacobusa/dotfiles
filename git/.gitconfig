@@ -66,6 +66,7 @@
     recap = log --all --oneline --no-merges --author=4650644+esond@users.noreply.github.com
     today = log --since=00:00:00 --all --no-merges --oneline --author=4650644+esond@users.noreply.github.com
     graph = log --graph --all --decorate --stat --date=iso
+    blamefile = log -n 5 -p -- $1
 [init]
 	defaultBranch = main
 [user]

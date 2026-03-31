@@ -23,6 +23,7 @@
 - `CMD + Q ` → Quit App
 - `CMD + N ` → New command (context specific but universal)
 - `CMD + OPTION + D ` → Toggle home dock visibility
+- `CMD + K ` → # Global search in some contexts
 
 ### Tiling/Raycast (Need to setup manually through settings)
 
@@ -121,7 +122,7 @@
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window
 - `G + H ` → Info window
-- `filetreefocus L` → Opebn file in editor
+- `filetreefocus L` → Open file in editor
 - `filetreefocus ENTER` → Rename file
 - `filetreefocus H/J/K/L` → Navigate tree
 - `llmchatmode SHIFT + TAB` → Agent Chat toggle
