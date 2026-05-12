@@ -19,7 +19,7 @@ chsh -s $(zsh)
 # CLIs
 brew install git
 brew install stow
-brew install docker
+# brew install docker
 brew install starship
 brew install fzf
 brew install eza
