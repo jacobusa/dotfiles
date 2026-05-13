@@ -36,6 +36,10 @@ brew install --cask raycast
 brew install --cask wezterm
 brew install --cask docker
 brew install --cask font-jetbrains-mono-nerd-font
+brew install --zask cursor      # optionsl
+brew install --zask 1password   # optionsl
+brew install --zask notion      # optionsl
+
 
 # -----------------------------------------------------
 #  Dotfiles
