@@ -37,6 +37,10 @@ ssh -T git@github.com
 ```
 
 ### Create the local git credentials file
+- you may need to install developer tools
+```bash
+xcode-select --install
+```
 
 ```bash
 git config --global user.name "name"
