@@ -33,6 +33,7 @@ brew install fd
 brew install neovim
 # GUIs
 brew install --cask raycast
+brew install --cask google-chrome
 brew install --cask wezterm
 brew install --cask docker
 brew install --cask font-jetbrains-mono-nerd-font
