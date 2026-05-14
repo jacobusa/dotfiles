@@ -41,6 +41,7 @@ brew install --cask cursor      # optionsl
 brew install --cask 1password   # optionsl
 brew install --cask notion      # optionsl
 brew install --cask linear      # optionsl
+brew install --cask rectangle      # optionsl
 
 
 # -----------------------------------------------------
