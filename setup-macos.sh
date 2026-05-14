@@ -35,11 +35,11 @@ brew install neovim
 brew install --cask raycast
 brew install --cask google-chrome
 brew install --cask wezterm
-brew install --cask docker
+brew install --cask docker # may need to install rosetta
 brew install --cask font-jetbrains-mono-nerd-font
-brew install --zask cursor      # optionsl
-brew install --zask 1password   # optionsl
-brew install --zask notion      # optionsl
+brew install --cask cursor      # optionsl
+brew install --cask 1password   # optionsl
+brew install --cask notion      # optionsl
 
 
 # -----------------------------------------------------
