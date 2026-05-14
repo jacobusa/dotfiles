@@ -43,6 +43,7 @@ brew install --cask notion      # optionsl
 brew install --cask linear      # optionsl
 brew install --cask rectangle   # optionsl
 brew install --cask spotify   # optionsl
+brew install --cask zoom   # optionsl
 
 
 # -----------------------------------------------------
