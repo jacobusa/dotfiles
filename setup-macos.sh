@@ -40,6 +40,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask cursor      # optionsl
 brew install --cask 1password   # optionsl
 brew install --cask notion      # optionsl
+brew install --cask linear      # optionsl
 
 
 # -----------------------------------------------------
