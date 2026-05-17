@@ -4,17 +4,17 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
-
 -- This is where you actually apply your config choices
 
 -- config.color_scheme = "Dracula"
 config.color_scheme = "Catppuccin Mocha"
--- config.color_scheme = 'Dark+'
+-- config.color_scheme = "Dark+"
+-- config.color_scheme = "Dark Modern"
+-- config.color_scheme = 'Vs Code Dark+ (rainglow)'
 -- config.color_scheme = "Tokyo Night"
 
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 12
-
 
 config.enable_tab_bar = true
 config.use_fancy_tab_bar = false
@@ -57,36 +57,36 @@ config.keys = {
 	-- 	mods = "CMD",
 	-- 	action = wezterm.action.TogglePaneZoomState,
 	-- },
-    {
+	{
 		key = "`",
 		mods = "CTRL",
-        action = wezterm.action_callback(function(_, pane)
-            local tab = pane:tab()
-            local panes = tab:panes_with_info()
-            if #panes == 1 then
-                pane:split({
-                    direction = "Right",
-                    size = 0.4,
-                })
-            elseif not panes[1].is_zoomed then
-                panes[1].pane:activate()
-                tab:set_zoomed(true)
-            elseif panes[1].is_zoomed then
-                tab:set_zoomed(false)
-                panes[2].pane:activate()
-            end
-        end),
-    },
+		action = wezterm.action_callback(function(_, pane)
+			local tab = pane:tab()
+			local panes = tab:panes_with_info()
+			if #panes == 1 then
+				pane:split({
+					direction = "Right",
+					size = 0.4,
+				})
+			elseif not panes[1].is_zoomed then
+				panes[1].pane:activate()
+				tab:set_zoomed(true)
+			elseif panes[1].is_zoomed then
+				tab:set_zoomed(false)
+				panes[2].pane:activate()
+			end
+		end),
+	},
 }
 
---  move directly to tab number
+--  move directly to tab number, keep for now, may delete later
 for i = 1, 9 do
 	table.insert(config.keys, {
-	  key = tostring(i),
-	  mods = "ALT",
-	  action = wezterm.action.ActivateTab(i - 1),
+		key = tostring(i),
+		mods = "ALT",
+		action = wezterm.action.ActivateTab(i - 1),
 	})
-  end
+end
 
 config.colors = {
 	tab_bar = {
@@ -112,6 +112,35 @@ config.colors = {
 			fg_color = "#808080",
 		},
 	},
+	-- foreground = "#d4d4d4",
+	-- background = "#1e1e1e",
+
+	-- cursor_bg = "#d4d4d4",
+	-- cursor_fg = "#1e1e1e",
+
+	-- selection_bg = "#264f78",
+
+	-- ansi = {
+	-- 	"#000000",
+	-- 	"#cd3131",
+	-- 	"#0dbc79",
+	-- 	"#e5e510",
+	-- 	"#2472c8",
+	-- 	"#bc3fbc",
+	-- 	"#11a8cd",
+	-- 	"#e5e5e5",
+	-- },
+
+	-- brights = {
+	-- 	"#666666",
+	-- 	"#f14c4c",
+	-- 	"#23d18b",
+	-- 	"#f5f543",
+	-- 	"#3b8eea",
+	-- 	"#d670d6",
+	-- 	"#29b8db",
+	-- 	"#ffffff",
+	-- },
 	-- background = '#1e1e1e', -- VSCode editor background
 	-- cursor_bg = '#aeafad',
 }

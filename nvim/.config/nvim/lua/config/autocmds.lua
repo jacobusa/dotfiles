@@ -6,3 +6,26 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+-- o
+--
+--
+vim.api.nvim_create_autocmd("ColorScheme", {
+  callback = function()
+    vim.api.nvim_set_hl(0, "Comment", {
+      italic = true,
+    })
+
+    vim.api.nvim_set_hl(0, "Directory", {
+      fg = "#4FC1FF",
+    })
+
+    vim.api.nvim_set_hl(0, "LineNr", {
+      fg = "#5a5a5a",
+    })
+
+    vim.api.nvim_set_hl(0, "CursorLineNr", {
+      fg = "#cccccc",
+      bold = true,
+    })
+  end,
+})
