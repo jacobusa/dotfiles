@@ -45,6 +45,10 @@
 - `CMD + \` → Split Horizontal
 - `CMD + ]` → Split Vertical
 - `CMD + H/J/K/L` → Navigate within a split screen
+- `CMD + SHIFT + H/J/K/L` → Control size of pane
+- `CMD + T/W` → Open/close pane
+- `CTRL + \`` → Focus top right window, useful for hiding/showing bottom terminal and side agent pane
+- `ALT + {number}` → Open numbered tabs
 - `CTRL + TAB` → Go to next tab
 - `CTRL + SHIFT + TAB` → Go to previous tab
 - `CTRL + R` → history finder
