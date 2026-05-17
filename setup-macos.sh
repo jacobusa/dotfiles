@@ -37,14 +37,14 @@ brew install --cask google-chrome
 brew install --cask wezterm
 brew install --cask docker # may need to install rosetta
 brew install --cask font-jetbrains-mono-nerd-font
-brew install --cask cursor      # optionsl
-brew install --cask 1password   # optionsl
-brew install --cask notion      # optionsl
-brew install --cask linear      # optionsl
-brew install --cask rectangle   # optionsl
-brew install --cask spotify   # optionsl
-brew install --cask zoom   # optionsl
-
+brew install --cask cursor     # optionsl
+brew install --cask 1password  # optionsl
+brew install --cask notion     # optionsl
+brew install --cask linear     # optionsl
+brew install --cask rectangle  # optionsl
+brew install --cask spotify    # optionsl
+brew install --cask zoom       # optionsl
+brew install --cask cursor-cli # optionsl
 
 # -----------------------------------------------------
 #  Dotfiles
