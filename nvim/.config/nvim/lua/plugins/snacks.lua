@@ -2,8 +2,9 @@ return {
   "folke/snacks.nvim",
   opts = {
     picker = {
-      hidden = true,     -- show dotfiles by default
-      ignored = false,   -- show gitignored files
+      hidden = true, -- show dotfiles by default
+      ignored = false, -- show gitignored files
+      -- follow = true,
     },
     dashboard = {
       preset = {

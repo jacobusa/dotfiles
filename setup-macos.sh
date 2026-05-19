@@ -44,7 +44,7 @@ brew install --cask linear     # optionsl
 brew install --cask rectangle  # optionsl
 brew install --cask spotify    # optionsl
 brew install --cask zoom       # optionsl
-brew install --cask cursor-cli # optionsl
+brew install --cask cursor-cli # optionsl, might need to install using curl manually because brew is not working with it
 
 # -----------------------------------------------------
 #  Dotfiles
