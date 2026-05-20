@@ -63,6 +63,7 @@
 - `<ANY_CLI_TOOL> ** + TAB` → enhanced fuzzy completion
 
 ### Neovim
+https://www.lazyvim.org/keymaps
 
 - `<leader>` === `SPACE`
 - `insertmode to normalmode` → Go from insert mode to normal mode customization
@@ -105,6 +106,8 @@
 - `G + D ` → Go to definition
 - `G + R ` → Go to Reference
 - `:` → Colon. Comamnd line
+- `[ + b` → Go to next buffer
+- `] + b` → Go to previous buffer
 
 ### Cursor
 
