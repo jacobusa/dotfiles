@@ -56,6 +56,7 @@ alias .....="cd ../../../.."
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
+alias r="z web && nvim ."
 # list and find
 alias l="eza -l --icons --git -a"
 alias lt="eza --tree --level=2 --long --icons --git"
