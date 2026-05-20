@@ -1,14 +1,24 @@
 return {
+  -- {
+  --   "Mofiqul/vscode.nvim",
+  --   priority = 1000,
+  --   config = function()
+  --     require("vscode").setup({
+  --       transparent = false,
+  --       italic_comments = true,
+  --     })
+  --
+  --     vim.cmd.colorscheme("vscode")
+  --   end,
+  -- },
   {
-    "Mofiqul/vscode.nvim",
+    "catppuccin/nvim",
     priority = 1000,
     config = function()
-      require("vscode").setup({
-        transparent = false,
-        italic_comments = true,
+      require("catppuccin").setup({
+        flavour = "mocha",
       })
-
-      vim.cmd.colorscheme("vscode")
+      vim.cmd.colorscheme("catppuccin-nvim")
     end,
   },
   -- return {

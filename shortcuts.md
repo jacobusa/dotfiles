@@ -52,6 +52,7 @@
 - `ALT + {number}` → Open numbered tabs
 - `CTRL + TAB` → Go to next tab
 - `CTRL + SHIFT + TAB` → Go to previous tab
+- `CTRL + SHIFT + p` → Open wezterm command pallate
 - `CTRL + R` → history finder
 - `CTRL + T` → fuzzy fzf file finder
 - `CTRL + W` → delete word go back on prompt
@@ -75,6 +76,7 @@ https://www.lazyvim.org/keymaps
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
 - `CTRL + O` → Go back to last thing you touched
 - `U` → Undo
+- `ZZ` → Save file and quit
 - `CTRL + R` → Redo
 - `CTRL + SPACE` → Autocomplete help
 - `<leader> + F` → Telescope file finding
@@ -101,7 +103,8 @@ https://www.lazyvim.org/keymaps
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
 - `normalmode CTRL + N` → Neotree toggle
-- `filetreefocus A` → Add new directory or file
+- `filetreefocus a` → Add new directory or file
+- `filetreefocus c` → copy file or directory, rename to save
 - `G + H ` → Info window
 - `G + D ` → Go to definition
 - `G + R ` → Go to Reference
