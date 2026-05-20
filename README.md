@@ -1,5 +1,7 @@
 # Dotfiles
 
+## Below section is for using hardcoded ssh key on disk for github authentication. Better approach would be 1password developer ssh agent
+
 ## Generating git SSH Keys (MacOS/WSL/Linux)
 
 ## Generate a new SSH key
