@@ -1,5 +1,6 @@
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
+local mux = wezterm.mux
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
@@ -32,6 +33,34 @@ config.window_padding = {
 }
 config.hide_tab_bar_if_only_one_tab = true
 
+local function ai_workspace(window, pane)
+	local cwd = pane:get_current_working_dir()
+
+	if type(cwd) == "userdata" then
+		cwd = cwd.file_path
+	end
+
+	local editor_pane = pane
+
+	local right_pane = editor_pane:split({
+		direction = "Right",
+		size = 0.3,
+		cwd = cwd,
+	})
+
+	local bottom_pane = editor_pane:split({
+		direction = "Bottom",
+		size = 0.2,
+		cwd = cwd,
+	})
+
+	editor_pane:send_text("nvim .\n")
+	bottom_pane:send_text("\n")
+	-- right_pane:send_text("agent \n")
+
+	editor_pane:activate()
+end
+
 -- Key bindings
 config.keys = {
 	-- confirm message
@@ -52,6 +81,7 @@ config.keys = {
 	{ key = "l", mods = "CMD|SHIFT", action = wezterm.action.AdjustPaneSize({ "Right", 5 }) },
 	{ key = "k", mods = "CMD|SHIFT", action = wezterm.action.AdjustPaneSize({ "Up", 5 }) },
 	{ key = "j", mods = "CMD|SHIFT", action = wezterm.action.AdjustPaneSize({ "Down", 5 }) },
+	{ key = "a", mods = "CMD|SHIFT", action = wezterm.action_callback(ai_workspace) },
 	-- {
 	-- 	key = "L",
 	-- 	mods = "CMD",
