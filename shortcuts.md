@@ -105,6 +105,7 @@ https://www.lazyvim.org/keymaps
 - `normalmode CTRL + N` → Neotree toggle
 - `filetreefocus a` → Add new directory or file
 - `filetreefocus c` → copy file or directory, rename to save
+- `gitfocus tab` → state/unstage a file
 - `G + H ` → Info window
 - `G + D ` → Go to definition
 - `G + R ` → Go to Reference
