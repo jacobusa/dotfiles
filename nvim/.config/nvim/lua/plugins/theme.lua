@@ -14,15 +14,20 @@ return {
   {
     "catppuccin/nvim",
     priority = 1000,
+    name = "catppuccin",
+    lazy = false,
+    opts = {
+      flavour = "mocha",
+      integrations = {
+        snacks = {
+          enabled = true,
+        }
+      },
+    },
     config = function()
-      require("catppuccin").setup({
-        flavour = "mocha",
-      })
       vim.cmd.colorscheme("catppuccin-nvim")
     end,
   },
-  -- return {
-  -- Install Kanagawa
   -- {
   --   "rebelot/kanagawa.nvim",
   --   lazy = false,
@@ -41,14 +46,6 @@ return {
   --         },
   --       },
   --     },
-  --   },
-  -- },
-
-  -- Tell LazyVim to use it
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "kanagawa",
   --   },
   -- },
 }

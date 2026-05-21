@@ -9,23 +9,23 @@
 -- o
 --
 --
-vim.api.nvim_create_autocmd("ColorScheme", {
-  callback = function()
-    vim.api.nvim_set_hl(0, "Comment", {
-      italic = true,
-    })
-
-    vim.api.nvim_set_hl(0, "Directory", {
-      fg = "#4FC1FF",
-    })
-
-    vim.api.nvim_set_hl(0, "LineNr", {
-      fg = "#5a5a5a",
-    })
-
-    vim.api.nvim_set_hl(0, "CursorLineNr", {
-      fg = "#cccccc",
-      bold = true,
-    })
-  end,
-})
+-- vim.api.nvim_create_autocmd("ColorScheme", {
+--   callback = function()
+--     vim.api.nvim_set_hl(0, "Comment", {
+--       italic = true,
+--     })
+--
+--     vim.api.nvim_set_hl(0, "Directory", {
+--       fg = "#4FC1FF",
+--     })
+--
+--     vim.api.nvim_set_hl(0, "LineNr", {
+--       fg = "#5a5a5a",
+--     })
+--
+--     vim.api.nvim_set_hl(0, "CursorLineNr", {
+--       fg = "#cccccc",
+--       bold = true,
+--     })
+--   end,
+-- })
