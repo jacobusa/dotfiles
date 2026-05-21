@@ -113,6 +113,11 @@ https://www.lazyvim.org/keymaps
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
 
+### Lazygit
+- `e` → edit file in neovim
+- `CTRL + p` → Git Patch settings
+- `SPACE` → Usually select in alot of contexts
+
 ### Cursor
 
 - `CMD + SHIFT + J` → Cursor Settings
