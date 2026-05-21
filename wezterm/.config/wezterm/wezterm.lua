@@ -23,7 +23,7 @@ config.use_fancy_tab_bar = false
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.9
 config.macos_window_background_blur = 10
-config.window_close_confirmation = "NeverPrompt"
+-- config.window_close_confirmation = "NeverPrompt"
 
 config.window_padding = {
 	left = 14,

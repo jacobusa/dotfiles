@@ -101,6 +101,7 @@ https://www.lazyvim.org/keymaps
 - `<leader>ft` → Launch terminal from neovim. Type exit or CTRL + D to exit
 - `<leader>n` → Notification history
 - `<leader>x` → quickfix/doagnostic info on line
+- `<leader>ca` → LSP quick actions
 - `SHIFT + K` → Show hover documentation
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu

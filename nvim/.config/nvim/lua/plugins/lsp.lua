@@ -22,7 +22,22 @@ return {
     --   end,
     -- },
     opts = {
-      servers = { eslint = {}, ts_ls = {}, pyright = {} },
+      servers = {
+        ["*"] = {
+          keys = {
+            -- Add a keymap
+            -- { "H", "<cmd>echo 'hello'<cr>", desc = "Say Hello" },
+            -- Change an existing keymap
+            -- { "K", "<cmd>echo 'custom hover'<cr>", desc = "Custom Hover" },
+            -- Disable a keymap
+            -- { "gd", true },
+          },
+        },
+        eslint = {},
+        ts_ls = {},
+        pyright = {},
+      },
+
       -- setup = {
       --   eslint = function()
       --     require("lazyvim.util").lsp.on_attach(function(client)
