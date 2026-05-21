@@ -19,11 +19,11 @@
 - `CMD + ,` → Pull up settings for most apps
 - `CTRL + LEFT/RIGHT_ARROW` → Switch between active windows
 - `CMD + \` ` → Next Instance of App
-- `CMD + W ` → Delete Window
-- `CMD + Q ` → Quit App
-- `CMD + N ` → New command (context specific but universal)
-- `CMD + OPTION + D ` → Toggle home dock visibility
-- `CMD + K ` → # Global search in some contexts
+- `CMD + W` → Delete Window
+- `CMD + Q` → Quit App
+- `CMD + N` → New command (context specific but universal)
+- `CMD + OPTION + D` → Toggle home dock visibility
+- `CMD + K` → # Global search in some contexts
 
 ### Tiling/Raycast (Need to setup manually through settings)
 
@@ -64,7 +64,8 @@
 - `<ANY_CLI_TOOL> ** + TAB` → enhanced fuzzy completion
 
 ### Neovim
-https://www.lazyvim.org/keymaps
+
+<https://www.lazyvim.org/keymaps>
 
 - `<leader>` === `SPACE`
 - `insertmode to normalmode` → Go from insert mode to normal mode customization
@@ -109,18 +110,24 @@ https://www.lazyvim.org/keymaps
 - `filetreefocus a` → Add new directory or file
 - `filetreefocus c` → copy file or directory, rename to save
 - `gitfocus tab` → state/unstage a file
-- `G + H ` → Info window
-- `G + D ` → Go to definition
-- `G + R ` → Go to Reference
+- `G + H` → Info window
+- `G + D` → Go to definition
+- `G + R` → Go to Reference
 - `:` → Colon. Comamnd line
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
-- `ontextover gh ` → Info window
+- `ontextover gh` → Info window
 
 ### Lazygit
+
 - `e` → edit file in neovim
 - `CTRL + p` → Git Patch settings
 - `SPACE` → Usually select in alot of contexts
+
+### Cursor-CLI
+
+- `CTRL + j` → New line
+- `CTRL + g` → Enter larger prompt mode with vim. Exit vim to go back to cursor and see changes
 
 ### Cursor
 
@@ -142,7 +149,7 @@ https://www.lazyvim.org/keymaps
 - `CMD + P` → File window
 - `CMD + SHIFT + P` → Command window
 - `CTRL + \` ` → Terminal Window
-- `G + H ` → Info window
+- `G + H` → Info window
 - `filetreefocus L` → Open file in editor
 - `filetreefocus ENTER` → Rename file
 - `filetreefocus H/J/K/L` → Navigate tree
