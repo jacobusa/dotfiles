@@ -123,11 +123,13 @@
 - `e` → edit file in neovim
 - `CTRL + p` → Git Patch settings
 - `SPACE` → Usually select in alot of contexts
+- `CTRL + c` → Quit lazyvim in normal terminal and in neovim
 
 ### Cursor-CLI
 
 - `CTRL + j` → New line
 - `CTRL + g` → Enter larger prompt mode with vim. Exit vim to go back to cursor and see changes
+- `cursor-agent --resume` → See list of past chats to attach to
 
 ### Cursor
 
