@@ -161,4 +161,4 @@ https://www.lazyvim.org/keymaps
 - `$mod + 1` → Terminal
 - `$mod + 2` → Browser
 - `$mod + 3` → Cursor/NVIM
-- `$mod + 4` → Anything
+- `$mod + 4` → Anythingx
