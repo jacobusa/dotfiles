@@ -31,6 +31,7 @@ brew install nvm
 brew install ripgrep
 brew install fd
 brew install neovim
+brew install lazygit
 # GUIs
 brew install --cask raycast
 brew install --cask google-chrome
