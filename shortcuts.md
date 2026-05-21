@@ -99,6 +99,7 @@ https://www.lazyvim.org/keymaps
 - `<leader>sr` → Global search replace
 - `<leader>g` → Lazy git commands
 - `<leader>ft` → Launch terminal from neovim. Type exit or CTRL + D to exit
+- `<leader>n` → Notification history
 - `SHIFT + K` → Show hover documentation
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
