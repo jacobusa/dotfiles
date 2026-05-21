@@ -21,6 +21,17 @@ return {
     --     end)
     --   end,
     -- },
+    keys = {
+      -- disable default hover
+      { "K", false },
+
+      -- add hover on gh
+      {
+        "gh",
+        vim.lsp.buf.hover,
+        desc = "Hover",
+      },
+    },
     opts = {
       servers = {
         ["*"] = {

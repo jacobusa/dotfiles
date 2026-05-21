@@ -115,6 +115,7 @@ https://www.lazyvim.org/keymaps
 - `:` → Colon. Comamnd line
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
+- `ontextover gh ` → Info window
 
 ### Lazygit
 - `e` → edit file in neovim
