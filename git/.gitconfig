@@ -24,16 +24,16 @@
 [color]
     ui = auto
 [core]
-	autocrlf = input
+    autocrlf = input
     editor = nvim
 [diff]
-    tool = vscode
-[difftool "vscode"]
-    cmd = code --wait --diff $LOCAL $REMOTE
+    tool = nvimdiff
+[difftool]
+    prompt = false
 [merge]
-    tool = vscode
-[mergetool "vscode"]
-    cmd = code --wait $MERGED
+    tool = nvimdiff
+[mergetool]
+    prompt = false
 [alias]
     co = checkout
     cm = commit
