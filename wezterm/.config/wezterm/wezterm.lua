@@ -107,6 +107,18 @@ config.keys = {
 			end
 		end),
 	},
+	{
+		key = "r",
+		mods = "ALT",
+		action = wezterm.action.PromptInputLine({
+			description = "Enter new tab title:",
+			action = wezterm.action_callback(function(window, pane, line)
+				if line then
+					window:active_tab():set_title(line)
+				end
+			end),
+		}),
+	},
 }
 
 --  move directly to tab number, keep for now, may delete later

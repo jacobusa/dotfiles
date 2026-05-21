@@ -7,3 +7,4 @@ vim.opt.relativenumber = true
 vim.opt.wrap = true
 
 vim.opt.clipboard = "unnamedplus"
+-- vim.g.lazyvim_mini_snippets_in_completion = true
