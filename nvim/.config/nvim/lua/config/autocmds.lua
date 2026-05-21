@@ -29,3 +29,17 @@
 --     })
 --   end,
 -- })
+--
+-- Apply highlights using the Neovim API
+-- vim.api.nvim_set_hl(0, "SnacksPickerDirectory", { fg = "#89b4fa", bold = true })
+-- vim.api.nvim_set_hl(0, "SnacksPickerPathHidden", { fg = "#585b70" })
+-- vim.api.nvim_set_hl(0, "MiniIconsFolder", { fg = "#fab387" })
+
+-- Better practice: Use an autocmd so colors stay if you swap themes
+-- vim.api.nvim_create_autocmd("ColorScheme", {
+--   pattern = "*",
+--   callback = function()
+--     vim.api.nvim_set_hl(0, "SnacksPickerDirectory", { fg = "#89b4fa", bold = true })
+--     vim.api.nvim_set_hl(0, "SnacksPickerPathHidden", { fg = "#585b70" })
+--   end,
+-- })
