@@ -132,7 +132,7 @@ end
 
 config.colors = {
 	tab_bar = {
-		background = "#0b0022",
+		background = "#080015",
 
 		active_tab = {
 			bg_color = "#2b2042",
@@ -140,12 +140,12 @@ config.colors = {
 		},
 
 		inactive_tab = {
-			bg_color = "#1b1032",
-			fg_color = "#808080",
+			bg_color = "#0d0818", -- darker
+			fg_color = "#6a6a6a", -- slightly dimmer text
 		},
 
 		inactive_tab_hover = {
-			bg_color = "#3b3052",
+			bg_color = "#1a1228",
 			fg_color = "#c0caf5",
 		},
 

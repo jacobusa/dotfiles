@@ -62,6 +62,7 @@
 - `<ANY_CLI_TOOL> + TAB` → completions menu
 - `<ANY_CLI_TOOL> + CTRL + P/N` → completions cycle from history
 - `<ANY_CLI_TOOL> ** + TAB` → enhanced fuzzy completion
+- `CTRL + c` → usually quit
 
 ### Neovim
 
@@ -76,6 +77,7 @@
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
 - `CTRL + O` → Go back to last thing you touched
+- `CTRL + c` → usually quit
 - `U` → Undo
 - `ZZ` → Save file and quit
 - `CTRL + R` → Redo
