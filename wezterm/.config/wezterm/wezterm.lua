@@ -21,15 +21,15 @@ config.enable_tab_bar = true
 config.use_fancy_tab_bar = false
 
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.9
+-- config.window_background_opacity = 0.9
 config.macos_window_background_blur = 10
 -- config.window_close_confirmation = "NeverPrompt"
 
 config.window_padding = {
-	left = 14,
-	right = 14,
+	left = 10,
+	right = 0,
 	top = 0,
-	bottom = 12,
+	bottom = 0,
 }
 config.hide_tab_bar_if_only_one_tab = true
 
@@ -132,8 +132,7 @@ end
 
 config.colors = {
 	tab_bar = {
-		background = "#080015",
-
+		background = "#1e1e2e",
 		active_tab = {
 			bg_color = "#2b2042",
 			fg_color = "#c0caf5",
