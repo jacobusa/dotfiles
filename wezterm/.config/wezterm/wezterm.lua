@@ -10,7 +10,6 @@ local config = wezterm.config_builder()
 -- config.color_scheme = "Dracula"
 -- config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Gruvbox Material Hard"
--- config.color_scheme = "Batman"
 -- config.color_scheme = "Rosé Pine Moon"
 -- config.color_scheme = "Gruvbox Material (Gogh)"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
@@ -161,7 +160,7 @@ config.colors = {
 		},
 	},
 	-- foreground = "#d4d4d4",
-	-- background = "#1e1e1e",
+	background = "#1e1e1e",
 
 	-- cursor_bg = "#d4d4d4",
 	-- cursor_fg = "#1e1e1e",
@@ -190,7 +189,7 @@ config.colors = {
 		"#dcd7ba", -- bright white (soft parchment)
 	},
 	foreground = "#c8c093",
-	background = "#0d0c0c",
+	-- background = "#0d0c0c",
 
 	cursor_bg = "#c8c093",
 	cursor_fg = "#0d0c0c",
