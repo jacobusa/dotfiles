@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 
 -- config.color_scheme = "Dracula"
-config.color_scheme = "Kanagawa (Gogh)"
+-- config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Gruvbox Material Hard"
 -- config.color_scheme = "Batman"
 -- config.color_scheme = "Rosé Pine Moon"
@@ -16,7 +16,7 @@ config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Gruvbox dark, hard (base16)"
 -- config.color_scheme = "kanagawabones"
 -- config.color_scheme = "Kokuban (Gogh)"
--- config.color_scheme = "Kanagawa Dragon (Gogh)"
+config.color_scheme = "Kanagawa Dragon (Gogh)"
 -- config.color_scheme = "Gruvbox Material (Gogh)"
 -- config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Catppuccin Mocha"
@@ -143,25 +143,21 @@ end
 
 config.colors = {
 	tab_bar = {
-		background = "#1e1e2e",
+		background = "#1F1F28", -- Kanagawa sumi-ish base
+
 		active_tab = {
-			bg_color = "#2b2042",
-			fg_color = "#c0caf5",
+			bg_color = "#DCA561", -- autumn yellow
+			fg_color = "#1F1F28",
 		},
 
 		inactive_tab = {
-			bg_color = "#0d0818", -- darker
-			fg_color = "#6a6a6a", -- slightly dimmer text
+			bg_color = "#2A2A37",
+			fg_color = "#C8C093",
 		},
 
 		inactive_tab_hover = {
-			bg_color = "#1a1228",
-			fg_color = "#c0caf5",
-		},
-
-		new_tab = {
-			bg_color = "#0b0022",
-			fg_color = "#808080",
+			bg_color = "#3A3A4A",
+			fg_color = "#FFFFFF",
 		},
 	},
 	-- foreground = "#d4d4d4",
@@ -172,29 +168,35 @@ config.colors = {
 
 	-- selection_bg = "#264f78",
 
-	-- ansi = {
-	-- 	"#000000",
-	-- 	"#cd3131",
-	-- 	"#0dbc79",
-	-- 	"#e5e510",
-	-- 	"#2472c8",
-	-- 	"#bc3fbc",
-	-- 	"#11a8cd",
-	-- 	"#e5e5e5",
-	-- },
+	ansi = {
+		"#0d0c0c", -- black (sumi ink)
+		"#c4746e", -- red (muted crimson)
+		"#8a9a7b", -- green (ash green)
+		"#c4b28a", -- yellow (warm muted gold)
+		"#8ba4b0", -- blue (steel blue)
+		"#a292a3", -- magenta (dusty purple)
+		"#7aa89f", -- cyan (jade teal)
+		"#c5c9c5", -- white (foggy gray)
+	},
 
-	-- brights = {
-	-- 	"#666666",
-	-- 	"#f14c4c",
-	-- 	"#23d18b",
-	-- 	"#f5f543",
-	-- 	"#3b8eea",
-	-- 	"#d670d6",
-	-- 	"#29b8db",
-	-- 	"#ffffff",
-	-- },
+	brights = {
+		"#727169", -- bright black (gray)
+		"#e46876", -- bright red
+		"#87a987", -- bright green
+		"#e6c384", -- bright yellow
+		"#7fb4ca", -- bright blue
+		"#938aa9", -- bright magenta
+		"#7aa89f", -- bright cyan
+		"#dcd7ba", -- bright white (soft parchment)
+	},
 	-- background = '#1e1e1e', -- VSCode editor background
 	-- cursor_bg = '#aeafad',
+	foreground = "#c8c093",
+	background = "#0d0c0c",
+
+	cursor_bg = "#c8c093",
+	cursor_fg = "#0d0c0c",
+	cursor_border = "#c8c093",
 }
 
 -- and finally, return the configuration to wezterm
