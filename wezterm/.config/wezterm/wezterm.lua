@@ -189,8 +189,6 @@ config.colors = {
 		"#7aa89f", -- bright cyan
 		"#dcd7ba", -- bright white (soft parchment)
 	},
-	-- background = '#1e1e1e', -- VSCode editor background
-	-- cursor_bg = '#aeafad',
 	foreground = "#c8c093",
 	background = "#0d0c0c",
 

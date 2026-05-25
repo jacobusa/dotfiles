@@ -4,12 +4,12 @@ format = """
 [](color_sumi)\
 $os\
 $username\
-[](bg:color_winter fg:color_sumi)\
+[](bg:color_wave fg:color_sumi)\
 $directory\
-[](fg:color_winter bg:color_wave)\
+[](fg:color_wave bg:color_spring)\
 $git_branch\
 $git_status\
-[](fg:color_wave bg:color_sumi2)\
+[](fg:color_spring bg:color_crystalBlue)\
 $c\
 $cpp\
 $rust\
@@ -21,38 +21,27 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:color_sumi2 bg:color_bg3)\
+[](fg:color_crystalBlue bg:color_autumnRed)\
 $docker_context\
 $conda\
 $pixi\
-[](fg:color_bg3 bg:color_bg1)\
+[](fg:color_autumnRed bg:color_pearlWhite)\
 $time\
-[ ](fg:color_bg1)\
+[ ](fg:color_pearlWhite)\
 $line_break$character"""
 
 palette = 'kanagawa_dragon'
 
 [palettes.kanagawa_dragon]
-color_fg0   = '#c8c093'
-
-# core surfaces (dragon sumi layers)
-color_sumi   = '#0d0c0c'
-color_sumi2  = '#16161d'
-color_bg1    = '#1f1f28'
-color_bg3    = '#2a2a37'
-
-# structural accents (muted steel/ink hues)
-color_winter = '#223249'
-color_wave   = '#2d4f67'
-
-# semantic accents (very restrained)
-color_green  = '#8a9a7b'
-color_red    = '#c4746e'
-color_blue   = '#8ba4b0'
-color_yellow = '#c4b28a'
-color_purple = '#a292a3'
-color_aqua   = '#7aa89f'
-color_orange = '#e6c384'
+color_fg0 = '#dcd7ba'   # base text (pearl)
+color_sumi = '#1f1f28'  # deep background
+color_wave = '#223249'  # dark blue
+color_spring = '#2a4b3c' # muted green
+color_crystalBlue = '#2d4f67' # steel blue
+color_autumnRed = '#e46876' # warm accent
+color_yellow = '#c4b28a' # soft gold
+color_peach = '#ffa066'  # highlight amber
+color_pearlWhite = '#c8c093' # light foreground
 
 [os]
 disabled = false
@@ -61,18 +50,23 @@ style = "bg:color_sumi fg:color_fg0"
 [os.symbols]
 Windows = "󰍲"
 Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
 Macos = "󰀵"
+Manjaro = ""
 Linux = "󰌽"
 Arch = "󰣇"
+Debian = "󰣚"
 
 [username]
 show_always = true
 style_user = "bg:color_sumi fg:color_fg0"
-style_root = "bg:color_sumi fg:color_red"
+style_root = "bg:color_autumnRed fg:color_sumi"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_fg0 bg:color_winter"
+style = "fg:color_fg0 bg:color_wave"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -86,94 +80,94 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:color_wave"
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_wave)]($style)'
+style = "bg:color_spring"
+format = '[[ $symbol $branch ](fg:color_fg0 bg:color_spring)]($style)'
 
 [git_status]
-style = "bg:color_wave"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_wave)]($style)'
+style = "bg:color_spring"
+format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_spring)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [bun]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [c]
 symbol = " "
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [cpp]
 symbol = " "
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [php]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [java]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [kotlin]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [haskell]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [python]
 symbol = ""
-style = "bg:color_sumi2"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_sumi2)]($style)'
+style = "bg:color_crystalBlue"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:color_bg3"
-format = '[[ $symbol( $context) ](fg:color_aqua bg:color_bg3)]($style)'
+style = "bg:color_autumnRed"
+format = '[[ $symbol( $context) ](fg:color_sumi bg:color_autumnRed)]($style)'
 
 [conda]
-style = "bg:color_bg3"
-format = '[[ $symbol( $environment) ](fg:color_aqua bg:color_bg3)]($style)'
+style = "bg:color_autumnRed"
+format = '[[ $symbol( $environment) ](fg:color_sumi bg:color_autumnRed)]($style)'
 
 [pixi]
-style = "bg:color_bg3"
-format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
+style = "bg:color_autumnRed"
+format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_autumnRed)]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:color_bg1"
-format = '[[  $time ](fg:color_fg0 bg:color_bg1)]($style)'
+style = "bg:color_pearlWhite"
+format = '[[  $time ](fg:color_sumi bg:color_pearlWhite)]($style)'
 
 [line_break]
 disabled = false
 
 [character]
-success_symbol = '[](bold fg:color_green)'
-error_symbol = '[](bold fg:color_red)'
-vimcmd_symbol = '[](bold fg:color_green)'
-vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
-vimcmd_replace_symbol = '[](bold fg:color_purple)'
-vimcmd_visual_symbol = '[](bold fg:color_yellow)'
+success_symbol = '[](bold fg:color_spring)'
+error_symbol = '[](bold fg:color_autumnRed)'
+vimcmd_symbol = '[](bold fg:color_spring)'
+vimcmd_replace_one_symbol = '[](bold fg:color_yellow)'
+vimcmd_replace_symbol = '[](bold fg:color_yellow)'
+vimcmd_visual_symbol = '[](bold fg:color_peach)'
