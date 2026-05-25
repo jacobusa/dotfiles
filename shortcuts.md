@@ -104,6 +104,7 @@
 - `<leader>ft` → Launch terminal from neovim. Type exit or CTRL + D to exit
 - `<leader>n` → Notification history
 - `<leader>x` → quickfix/doagnostic info on line
+- `<leader>wT` → move split out to it's own tab
 - `<leader>ca` → LSP quick actions
 - `SHIFT + K` → Show hover documentation
 - `normalmode CTRL + P` → Telescope file finding
@@ -125,6 +126,7 @@
 - `#/N` → Previous occurence of word under cursor
 - `L` → Next buffer bnext
 - `H` → Previous buffer bprevious
+- `:wa` → Save all files
 
 ### Lazygit
 
