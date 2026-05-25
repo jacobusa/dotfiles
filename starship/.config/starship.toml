@@ -1,72 +1,72 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](color_sumi)\
+[](surface0)\
 $os\
 $username\
-[](bg:color_wave fg:color_sumi)\
+[](bg:yellow fg:surface0)\
 $directory\
-[](fg:color_wave bg:color_spring)\
+[](fg:yellow bg:green)\
 $git_branch\
 $git_status\
-[](fg:color_spring bg:color_crystalBlue)\
+[](fg:green bg:teal)\
 $c\
-$cpp\
 $rust\
 $golang\
 $nodejs\
-$bun\
 $php\
 $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:color_crystalBlue bg:color_autumnRed)\
+[](fg:teal bg:blue)\
 $docker_context\
-$conda\
-$pixi\
-[](fg:color_autumnRed bg:color_pearlWhite)\
+[](fg:blue bg:purple)\
 $time\
-[ ](fg:color_pearlWhite)\
-$line_break$character"""
+[ ](fg:purple)\
+$line_break$character
+"""
 
-palette = 'kanagawa_dragon'
+palette = "kanagawa_dragon"
 
 [palettes.kanagawa_dragon]
-color_fg0 = '#dcd7ba'   # base text (pearl)
-color_sumi = '#1f1f28'  # deep background
-color_wave = '#223249'  # dark blue
-color_spring = '#2a4b3c' # muted green
-color_crystalBlue = '#2d4f67' # steel blue
-color_autumnRed = '#e46876' # warm accent
-color_yellow = '#c4b28a' # soft gold
-color_peach = '#ffa066'  # highlight amber
-color_pearlWhite = '#c8c093' # light foreground
+base      = "#0d0c0c"   # sumi ink
+surface0  = "#181616"   # dragon background
+surface1  = "#282727"
+text       = "#dcd7ba"  # parchment
+subtext    = "#c5c9c5"  # fog
+
+red        = "#c4746e"
+green      = "#8a9a7b"
+yellow     = "#c4b28a"
+blue       = "#7fb4ca"
+purple     = "#938aa9"
+teal       = "#7aa89f"
+orange     = "#e6c384"
+
+bright_red    = "#e46876"
+bright_green  = "#87a987"
+bright_yellow = "#e6c384"
 
 [os]
 disabled = false
-style = "bg:color_sumi fg:color_fg0"
+style = "bg:surface0 fg:text"
 
 [os.symbols]
-Windows = "󰍲"
-Ubuntu = "󰕈"
-SUSE = ""
-Raspbian = "󰐿"
-Mint = "󰣭"
 Macos = "󰀵"
-Manjaro = ""
 Linux = "󰌽"
 Arch = "󰣇"
-Debian = "󰣚"
+Ubuntu = "󰕈"
+Windows = "󰍲"
 
 [username]
 show_always = true
-style_user = "bg:color_sumi fg:color_fg0"
-style_root = "bg:color_autumnRed fg:color_sumi"
+style_user = "bg:surface0 fg:text"
+style_root = "bg:surface0 fg:red"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_fg0 bg:color_wave"
+style = "fg:base bg:yellow"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -80,94 +80,76 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:color_spring"
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_spring)]($style)'
+style = "bg:green"
+format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 
 [git_status]
-style = "bg:color_spring"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_spring)]($style)'
+style = "bg:green"
+format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
-
-[bun]
-symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [c]
-symbol = " "
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
-
-[cpp]
-symbol = " "
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+symbol = ""
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [php]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [java]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [kotlin]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [haskell]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [python]
 symbol = ""
-style = "bg:color_crystalBlue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_crystalBlue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version ) ](fg:base bg:teal)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:color_autumnRed"
-format = '[[ $symbol( $context) ](fg:color_sumi bg:color_autumnRed)]($style)'
-
-[conda]
-style = "bg:color_autumnRed"
-format = '[[ $symbol( $environment) ](fg:color_sumi bg:color_autumnRed)]($style)'
-
-[pixi]
-style = "bg:color_autumnRed"
-format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_autumnRed)]($style)'
+style = "bg:blue"
+format = '[[ $symbol( $context ) ](fg:base bg:blue)]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:color_pearlWhite"
-format = '[[  $time ](fg:color_sumi bg:color_pearlWhite)]($style)'
+style = "bg:purple"
+format = '[[  $time ](fg:base bg:purple)]($style)'
 
 [line_break]
 disabled = false
 
 [character]
-success_symbol = '[](bold fg:color_spring)'
-error_symbol = '[](bold fg:color_autumnRed)'
-vimcmd_symbol = '[](bold fg:color_spring)'
-vimcmd_replace_one_symbol = '[](bold fg:color_yellow)'
-vimcmd_replace_symbol = '[](bold fg:color_yellow)'
-vimcmd_visual_symbol = '[](bold fg:color_peach)'
+success_symbol = '[](bold fg:green)'
+error_symbol = '[](bold fg:red)'
+vimcmd_symbol = '[](bold fg:green)'
+vimcmd_replace_one_symbol = '[](bold fg:purple)'
+vimcmd_replace_symbol = '[](bold fg:purple)'
+vimcmd_visual_symbol = '[](bold fg:yellow)'
