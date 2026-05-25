@@ -5,8 +5,6 @@
 # [credential] # use SSH instead of HTTPS
 #     helper = osxkeychain # mac
 #     helper = store # linux
-[pager]
-	branch = false
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

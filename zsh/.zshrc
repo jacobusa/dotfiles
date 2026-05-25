@@ -1,6 +1,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/.local/bin:$PATH"
 export EDITOR='nvim'
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Create the local bin directory if it doesn't exist
 mkdir -p "$HOME/.local/bin"

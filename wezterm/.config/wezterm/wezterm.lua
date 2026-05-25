@@ -172,7 +172,7 @@ config.colors = {
 		"#c4746e", -- red (muted crimson)
 		"#8a9a7b", -- green (ash green)
 		"#c4b28a", -- yellow (warm muted gold)
-		"#8ba4b0", -- blue (steel blue)
+		"#d3d5d0", -- parchment
 		"#a292a3", -- magenta (dusty purple)
 		"#7aa89f", -- cyan (jade teal)
 		"#c5c9c5", -- white (foggy gray)

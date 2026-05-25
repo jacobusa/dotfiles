@@ -27,7 +27,7 @@ brew install zoxide
 brew install bat
 brew install screenfetch
 brew install nvm
-# neovim
+# neovim and related
 brew install ripgrep
 brew install fd
 brew install neovim
