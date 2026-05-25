@@ -50,6 +50,7 @@
 - `CMD + T/W` → Open/close pane
 - `CTRL + \`` → Focus top right window, useful for hiding/showing bottom terminal and side agent pane
 - `ALT + {number}` → Open numbered tabs
+- `ALT + r` → rename tab
 - `CTRL + TAB` → Go to next tab
 - `CTRL + SHIFT + TAB` → Go to previous tab
 - `CTRL + SHIFT + p` → Open wezterm command pallate
