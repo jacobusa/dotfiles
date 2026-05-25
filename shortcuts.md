@@ -127,6 +127,8 @@
 - `L` → Next buffer bnext
 - `H` → Previous buffer bprevious
 - `:wa` → Save all files
+- `z` → see fold menu
+- `g` → go-to menu
 
 ### Lazygit
 
