@@ -11,41 +11,56 @@ return {
   --     vim.cmd.colorscheme("vscode")
   --   end,
   -- },
-  {
-    "catppuccin/nvim",
-    priority = 1000,
-    name = "catppuccin",
-    lazy = false,
-    opts = {
-      flavour = "mocha",
-      integrations = {
-        snacks = {
-          enabled = true,
-        }
-      },
-    },
-    config = function()
-      vim.cmd.colorscheme("catppuccin-nvim")
-    end,
-  },
   -- {
-  --   "rebelot/kanagawa.nvim",
+  --   "scottmckendry/cyberdream.nvim",
   --   lazy = false,
   --   priority = 1000,
+  --   config = function()
+  --     vim.cmd.colorscheme("cyberdream")
+  --   end,
+  -- },
+  -- {
+  --   "catppuccin/nvim",
+  --   priority = 1000,
+  --   name = "catppuccin",
+  --   lazy = false,
   --   opts = {
-  --     compile = true,
-  --     transparent = false,
-  --
-  --     -- Optional tweaks
-  --     colors = {
-  --       theme = {
-  --         all = {
-  --           ui = {
-  --             bg_gutter = "none",
-  --           },
-  --         },
+  --     flavour = "mocha",
+  --     integrations = {
+  --       snacks = {
+  --         enabled = true,
   --       },
   --     },
   --   },
+  --   config = function()
+  --     vim.cmd.colorscheme("catppuccin-nvim")
+  --   end,
   -- },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      -- compile = true,
+      transparent = false,
+
+      colors = {
+        theme = {
+          all = {
+            ui = {
+              bg_gutter = "none",
+            },
+          },
+        },
+      },
+    },
+
+    config = function()
+      -- vim.cmd.colorscheme("kanagawa")
+      vim.cmd.colorscheme("kanagawa")
+      -- vim.cmd.colorscheme("kanagawa-dragon")
+      -- vim.cmd.colorscheme("Kanagawa Dragon (Gogh)")
+      -- vim.cmd.colorscheme("kanagawa")
+    end,
+  },
 }
