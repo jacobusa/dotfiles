@@ -112,9 +112,9 @@
 - `filetreefocus a` → Add new directory or file
 - `filetreefocus c` → copy file or directory, rename to save
 - `gitfocus tab` → state/unstage a file
-- `G + H` → Info window
-- `G + D` → Go to definition
-- `G + R` → Go to Reference
+- `g + h` → Info window
+- `g + d` → Go to definition
+- `g + r` → Go to Reference
 - `:` → Colon. Comamnd line
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
