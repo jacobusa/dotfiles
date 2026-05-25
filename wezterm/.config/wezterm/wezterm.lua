@@ -8,15 +8,24 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 
 -- config.color_scheme = "Dracula"
--- config.color_scheme = "Kanagawa Dragon (Gogh)"
 config.color_scheme = "Kanagawa (Gogh)"
+-- config.color_scheme = "Gruvbox Material Hard"
+-- config.color_scheme = "Batman"
+-- config.color_scheme = "Rosé Pine Moon"
+-- config.color_scheme = "Gruvbox Material (Gogh)"
+-- config.color_scheme = "Gruvbox dark, hard (base16)"
+-- config.color_scheme = "kanagawabones"
+-- config.color_scheme = "Kokuban (Gogh)"
+-- config.color_scheme = "Kanagawa Dragon (Gogh)"
+-- config.color_scheme = "Gruvbox Material (Gogh)"
+-- config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Dark+"
 -- config.color_scheme = "Dark Modern"
--- config.color_scheme = 'Vs Code Dark+ (rainglow)'
+-- config.color_scheme = "Vs Code Dark+ (rainglow)"
 -- config.color_scheme = "Tokyo Night"
 
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" })
 config.font_size = 12
 
 config.enable_tab_bar = true

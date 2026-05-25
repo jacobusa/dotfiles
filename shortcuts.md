@@ -119,6 +119,12 @@
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
 - `ontextover gh` → Info window
+- `*` → Next occurence of word under cursor
+- `n` → Next occurence of word in search
+- `N` → Previous occurence of word in search
+- `#/N` → Previous occurence of word under cursor
+- `L` → Next buffer bnext
+- `H` → Previous buffer bprevious
 
 ### Lazygit
 

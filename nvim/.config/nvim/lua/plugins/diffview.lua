@@ -1,17 +1,39 @@
 return {
-  "sindrets/diffview.nvim",
-  cmd = { "DiffviewOpen", "DiffviewFileHistory", "DiffviewFocusFiles" },
-  keys = {
-    { "<leader>gd", "<cmd>DiffviewOpen<cr>", desc = "Open Diffview" },
-    { "<leader>gh", "<cmd>DiffviewFileHistory %<cr>", desc = "File History" },
-  },
-  opts = {
-    enhanced_diff_hl = true, -- Better highlighting for diffs
-    keymaps = {
-      view = {
-        { "n", "q", "<cmd>DiffviewClose<cr>", { desc = "Close Diffview" } },
-        { "n", "<tab>", "<cmd>DiffviewToggleFiles<cr>", { desc = "Toggle file panel" } },
-      },
-    },
-  },
+  -- "sindrets/diffview.nvim",
+  -- cmd = { "DiffviewOpen", "DiffviewFileHistory", "DiffviewFocusFiles" },
+  -- keys = {
+  --   { "<leader>gd", "<cmd>DiffviewOpen<cr>", desc = "Open Diffview" },
+  --   { "<leader>gh", "<cmd>DiffviewFileHistory %<cr>", desc = "File History" },
+  -- },
+  -- opts = function()
+  --   local diffview_config = require("diffview.config")
+  --   return {
+  --     keymaps = {
+  --       file_panel = {
+  --         ["<c-f>"] = false,
+  --         ["<c-b>"] = false,
+  --         {
+  --           "<c-d>",
+  --           diffview_config.actions.scroll_view(0.25),
+  --           { desc = "Diffview: Scroll the view down" },
+  --         },
+  --         {
+  --           "n",
+  --           "<c-g>",
+  --           diffview_config.actions.scroll_view(-0.25),
+  --           { desc = "Diffview: Scroll the view up" },
+  --         },
+  --       },
+  --     },
+  --   }
+  -- end,
+  -- opts = {
+  --   enhanced_diff_hl = true, -- Better highlighting for diffs
+  --   -- keymaps = {
+  --   --   view = {
+  --   --     { "n", "q", "<cmd>DiffviewClose<cr>", { desc = "Close Diffview" } },
+  --   --     { "n", "<tab>", "<cmd>DiffviewToggleFiles<cr>", { desc = "Toggle file panel" } },
+  --   --   },
+  --   -- },
+  -- },
 }

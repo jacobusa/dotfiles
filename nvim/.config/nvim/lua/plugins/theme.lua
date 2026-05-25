@@ -57,10 +57,26 @@ return {
 
     config = function()
       -- vim.cmd.colorscheme("kanagawa")
-      vim.cmd.colorscheme("kanagawa")
-      -- vim.cmd.colorscheme("kanagawa-dragon")
+      -- vim.cmd.colorscheme("kanagawa")
+      vim.cmd.colorscheme("kanagawa-dragon")
       -- vim.cmd.colorscheme("Kanagawa Dragon (Gogh)")
       -- vim.cmd.colorscheme("kanagawa")
     end,
   },
+  -- {
+  --   "sainnhe/gruvbox-material",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     vim.o.background = "dark"
+  --
+  --     vim.g.gruvbox_material_background = "hard"
+  --     vim.g.gruvbox_material_foreground = "material"
+  --     vim.g.gruvbox_material_ui_contrast = "high"
+  --     vim.g.gruvbox_material_float_style = "dim"
+  --     vim.g.gruvbox_material_enable_italic = true
+  --
+  --     vim.cmd.colorscheme("gruvbox-material")
+  --   end,
+  -- },
 }
