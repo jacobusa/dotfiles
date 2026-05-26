@@ -17,8 +17,17 @@ return {
   {
     "nvim-mini/mini.map",
     event = "VeryLazy",
+    desc = "minmap",
     config = function(_, opts)
       require("mini.map").setup(opts)
+      local wk = require("which-key")
+      wk.add({
+        {
+          "<leader>m",
+          group = "minimap",
+          icon = "󰍉",
+        },
+      })
     end,
     opts = function()
       local map = require("mini.map")

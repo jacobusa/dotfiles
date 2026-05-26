@@ -101,6 +101,7 @@
 - `<leader>l` → Launch Lazy
 - `<leader>ul` → Toggle line numbers
 - `<leader>sr` → Global search replace
+- `<leader>sd` → Browse file diagnostics
 - `<leader>g` → Lazy git commands
 - `<leader>go` → Toggle git husks in file
 - `<leader>m` → Toggle file minimap controls
