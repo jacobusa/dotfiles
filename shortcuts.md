@@ -102,6 +102,7 @@
 - `<leader>ul` → Toggle line numbers
 - `<leader>sr` → Global search replace
 - `<leader>g` → Lazy git commands
+- `<leader>go` → Toggle git husks in file
 - `<leader>ft` → Launch terminal from neovim. Type exit or CTRL + D to exit
 - `<leader>n` → Notification history
 - `<leader>x` → quickfix/doagnostic info on line
