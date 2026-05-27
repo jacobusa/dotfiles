@@ -79,6 +79,8 @@
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
 - `CTRL + O` → Go back to last thing you touched
 - `CTRL + c` → usually quit
+- `CTRL + d` → Scroll page down in window
+- `CTRL + u` → Scroll page up in window
 - `U` → Undo
 - `ZZ` → Save file and quit
 - `CTRL + R` → Redo
