@@ -142,7 +142,8 @@ end
 
 config.colors = {
 	tab_bar = {
-		background = "#1F1F28", -- Kanagawa sumi-ish base
+		background = "#000000", -- Kanagawa sumi-ish base
+		-- background = "#1F1F28", -- Kanagawa sumi-ish base
 
 		active_tab = {
 			bg_color = "#DCA561", -- autumn yellow
@@ -150,12 +151,14 @@ config.colors = {
 		},
 
 		inactive_tab = {
-			bg_color = "#2A2A37",
+			-- bg_color = "#2A2A37",
+			bg_color = "#000000",
 			fg_color = "#C8C093",
 		},
 
 		inactive_tab_hover = {
-			bg_color = "#3A3A4A",
+			bg_color = "#856039",
+			-- bg_color = "#323240", -- slightly dimmer
 			fg_color = "#FFFFFF",
 		},
 	},
