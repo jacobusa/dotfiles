@@ -109,6 +109,7 @@
 - `<leader>n` → Notification history
 - `<leader>x` → quickfix/doagnostic info on line
 - `<leader>wT` → move split out to it's own tab
+- `<leader>uT` → toggle treesitter highlight
 - `<leader>ca` → LSP quick actions
 - `SHIFT + K` → Show hover documentation
 - `normalmode CTRL + P` → Telescope file finding
@@ -133,6 +134,7 @@
 - `:wa` → Save all files
 - `z` → see fold menu
 - `g` → go-to menu
+- `s` → Replace and insert mode
 
 ### Lazygit
 
