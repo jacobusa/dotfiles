@@ -23,7 +23,7 @@ return {
     -- },
     keys = {
       -- disable default hover
-      { "K", false },
+      -- { "K", false },
 
       -- add hover on gh
       {
