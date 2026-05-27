@@ -113,6 +113,7 @@
 - `<leader>ca` → LSP quick actions
 - `<leader>cl` → LSP info
 - `SHIFT + K` → Show hover documentation
+- `twice SHIFT + K` → Go into hover documentation
 - `insertmode CTRL + SPACE` → activate completion menu
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
