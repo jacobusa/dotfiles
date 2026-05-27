@@ -111,7 +111,9 @@
 - `<leader>wT` → move split out to it's own tab
 - `<leader>uT` → toggle treesitter highlight
 - `<leader>ca` → LSP quick actions
+- `<leader>cl` → LSP info
 - `SHIFT + K` → Show hover documentation
+- `insertmode CTRL + SPACE` → activate completion menu
 - `normalmode CTRL + P` → Telescope file finding
 - `insertmode CTRL + P/N` → Autocomplete menu
 - `normalmode CTRL + N` → Neotree toggle
