@@ -9,7 +9,7 @@ return {
         replace = "cs",
         find = "",
         find_left = "",
-        highlight = "S",
+        highlight = "",
         update_n_lines = "",
       },
     },
