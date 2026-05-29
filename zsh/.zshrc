@@ -55,7 +55,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 # neovim btw
 alias v="nvim"
-alias vi="nvim"
+# alias vi="nvim"
 alias vim="nvim"
 alias r="z web && nvim ."
 # neovim lazygit
