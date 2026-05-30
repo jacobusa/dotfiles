@@ -77,6 +77,7 @@
 - `CTRL + J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN J/K/H/L` → Navigate within a split screen
 - `CTRL + W THEN CTRL + W` → Navigate to next split screen
+- `CTRL + x THEN CTRL + o` → Open neovim completions menu
 - `CTRL + O` → Go back to last thing you touched
 - `CTRL + c` → usually quit
 - `CTRL + d` → Scroll page down in window
