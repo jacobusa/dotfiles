@@ -3,14 +3,11 @@ return {
   opts = {
     ensure_installed = {
       "deno",
-      "typescript-language-server",
-      "prettier",
-      "eslint-lsp",
     },
   },
 }
 
--- Previously Installed
+-- Previously Installed without lazyvim extras. Backup
 --   ◍ stylua
 --   ◍ shellcheck
 --   ◍ shfmt
@@ -23,4 +20,4 @@ return {
 --   ◍ prettier
 --   ◍ pyright
 --   ◍ tree-sitter-cli
---   ◍ typescript-language-server ts_ls
+--   ◍ typescript-language-server ts_ls -- this is old

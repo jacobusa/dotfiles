@@ -126,6 +126,8 @@
 - `g + h` → Info window
 - `g + d` → Go to definition
 - `g + r` → Go to Reference
+- `g + SHIFT + i` → Go to Implementation
+- `g + y` → Go to type definition
 - `:` → Colon. Comamnd line
 - `[ + b` → Go to next buffer
 - `] + b` → Go to previous buffer
