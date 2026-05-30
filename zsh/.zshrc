@@ -58,6 +58,7 @@ alias v="nvim"
 # alias vi="nvim"
 alias vim="nvim"
 alias r="z web && nvim ."
+alias d="z dotfiles && nvim ."
 # neovim lazygit
 alias g="lazygit"
 # list and find
