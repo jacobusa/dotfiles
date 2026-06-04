@@ -3,8 +3,26 @@ return {
   opts = {
     picker = {
       hidden = true, -- show dotfiles by default
-      ignored = false, -- show gitignored files
+      -- hidden = true, -- show dotfiles by default
+      -- hide_dotfiles = false,
+      -- ignored = true, -- show gitignored files
       -- follow = true,
+      sources = {
+        files = {
+          hidden = true,
+          -- ignored = true,
+        },
+
+        explorer = {
+          hidden = true,
+          -- ignored = true,
+        },
+
+        grep = {
+          hidden = true,
+          -- ignored = true,
+        },
+      },
     },
 
     dashboard = {
