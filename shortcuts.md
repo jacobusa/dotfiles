@@ -48,6 +48,7 @@
 - `CMD + SHIFT + H/J/K/L` → Control size of pane
 - `CMD + SHIFT + a` → Power function that opens folder in neovim, agent panel, and terminal pane layout. Good with top right window focus
 - `CMD + T/W` → Open/close pane
+- `CMD + SHIFT + T` → Move current pane to new tab
 - `CTRL + \`` → Focus top right window, useful for hiding/showing bottom terminal and side agent pane
 - `ALT + {number}` → Open numbered tabs
 - `ALT + r` → rename tab

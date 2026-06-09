@@ -91,6 +91,13 @@ config.keys = {
 	{ key = "k", mods = "CMD|SHIFT", action = wezterm.action.AdjustPaneSize({ "Up", 5 }) },
 	{ key = "j", mods = "CMD|SHIFT", action = wezterm.action.AdjustPaneSize({ "Down", 5 }) },
 	{ key = "a", mods = "CMD|SHIFT", action = wezterm.action_callback(ai_workspace) },
+	{
+		key = "t",
+		mods = "CMD|SHIFT",
+		action = wezterm.action_callback(function(win, pane)
+			pane:move_to_new_tab()
+		end),
+	},
 	-- {
 	-- 	key = "L",
 	-- 	mods = "CMD",
