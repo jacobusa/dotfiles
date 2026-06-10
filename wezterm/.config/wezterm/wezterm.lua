@@ -4,6 +4,13 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+-- config.front_end = "Software"
+-- config.front_end = "OpenGL"
+-- config.animation_fps = 250
+-- config.max_fps = 120
+-- config.term = "wezterm"
+-- config.term = "xterm-256color"
+
 -- This is where you actually apply your config choices
 
 -- config.color_scheme = "Dracula"

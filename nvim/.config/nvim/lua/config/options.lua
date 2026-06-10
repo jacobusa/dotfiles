@@ -10,3 +10,5 @@ vim.opt.clipboard = "unnamedplus"
 -- vim.g.lazyvim_mini_snippets_in_completion = true
 vim.g.snacks_animate = true
 -- vim.g.lazyvim_ts_lsp = "tsgo"
+-- vim.opt.cursorline = false
+-- vim.opt.termsync = false
