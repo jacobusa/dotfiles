@@ -35,8 +35,8 @@ brew install lazygit
 # GUIs
 brew install --cask raycast
 brew install --cask google-chrome
-brew install --cask wezterm
-brew install --cask docker # may need to install rosetta
+brew install --cask wezterm@nightly # nightly because the stable release version has weird rendering bugs
+brew install --cask docker          # may need to install rosetta
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask cursor     # optionsl
 brew install --cask 1password  # optionsl
