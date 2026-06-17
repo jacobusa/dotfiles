@@ -4,23 +4,22 @@ return {
     picker = {
       hidden = true, -- show dotfiles by default
       -- hidden = true, -- show dotfiles by default
-      -- hide_dotfiles = false,
-      -- ignored = true, -- show gitignored files
+      ignored = true, -- show gitignored files
       -- follow = true,
       sources = {
         files = {
           hidden = true,
-          -- ignored = true,
+          ignored = true,
         },
 
         explorer = {
           hidden = true,
-          -- ignored = true,
+          ignored = true,
         },
 
         grep = {
           hidden = true,
-          -- ignored = true,
+          ignored = true,
         },
       },
     },
