@@ -156,6 +156,7 @@
 
 - `CTRL + j` → New line
 - `CTRL + g` → Enter larger prompt mode with vim. Exit vim to go back to cursor and see changes
+- `CTRL + v` → Paste a copied image into the chat. Very useful
 - `cursor-agent --resume` → See list of past chats to attach to
 
 ### Cursor
