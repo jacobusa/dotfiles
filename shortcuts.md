@@ -128,6 +128,7 @@
 - `g + h` → Info window
 - `g + d` → Go to definition
 - `g + r` → Go to Reference
+- `g + SHIFT + r` → Go to Reference of symbol under cursor
 - `g + SHIFT + i` → Go to Implementation
 - `g + y` → Go to type definition
 - `:` → Colon. Comamnd line

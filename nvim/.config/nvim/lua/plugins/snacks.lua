@@ -4,7 +4,7 @@ return {
     picker = {
       hidden = true, -- show dotfiles by default
       -- hidden = true, -- show dotfiles by default
-      ignored = true, -- show gitignored files
+      -- ignored = true, -- show gitignored files
       -- follow = true,
       sources = {
         files = {
