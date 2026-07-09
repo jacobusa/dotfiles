@@ -124,6 +124,7 @@
 - `normalmode CTRL + N` → Neotree toggle
 - `filetreefocus a` → Add new directory or file
 - `filetreefocus c` → copy file or directory, rename to save
+- `filetreefocus + . (on specified folder) THEN <leader> + /` → Search grep within specified folder
 - `gitfocus tab` → state/unstage a file
 - `g + h` → Info window
 - `g + d` → Go to definition
