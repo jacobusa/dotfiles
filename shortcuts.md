@@ -125,6 +125,7 @@
 - `filetreefocus a` → Add new directory or file
 - `filetreefocus c` → copy file or directory, rename to save
 - `filetreefocus + . (on specified folder) THEN <leader> + /` → Search grep within specified folder
+- `filetreefocus THEN 50 THEN <leader> + w + >` → Make sidebar big by 50 times
 - `gitfocus tab` → state/unstage a file
 - `g + h` → Info window
 - `g + d` → Go to definition
