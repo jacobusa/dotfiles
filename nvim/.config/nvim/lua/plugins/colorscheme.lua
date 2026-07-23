@@ -4,7 +4,7 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      -- vim.cmd.colorscheme("vscode")
+      vim.cmd.colorscheme("vscode")
     end,
   },
   {
@@ -42,18 +42,20 @@ return {
       },
     },
 
-    config = function()
-      vim.cmd.colorscheme("kanagawa-dragon")
-    end,
+    -- config = function()
+    --   vim.cmd.colorscheme("kanagawa-dragon")
+    -- end,
   },
   {
     "navarasu/onedark.nvim",
     priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       require("onedark").setup({
-        style = "warmer",
+        style = "darker",
+        -- style = "warmer",
       })
       -- require("onedark").load()
     end,
   },
+  { "ellisonleao/gruvbox.nvim" },
 }

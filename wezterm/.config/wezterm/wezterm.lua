@@ -29,6 +29,9 @@ config.color_scheme = "Kanagawa (Gogh)"
 -- config.color_scheme = "Dark Modern"
 -- config.color_scheme = "Vs Code Dark+ (rainglow)"
 -- config.color_scheme = "Tokyo Night"
+-- config.color_scheme = "One Dark (Gogh)"
+-- config.color_scheme = "One Half Black (Gogh)"
+-- config.color_scheme = "Vs Code Dark+ (Gogh)"
 
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" })
 config.font_size = 12
