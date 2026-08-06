@@ -63,18 +63,18 @@ local function ai_workspace(window, pane)
 
 	local right_pane = editor_pane:split({
 		direction = "Right",
-		size = 0.3,
+		size = 0.5,
 		cwd = cwd,
 	})
-
+	right_pane:send_text("agent\n")
 	local bottom_pane = editor_pane:split({
 		direction = "Bottom",
-		size = 0.2,
+		size = 0.4,
 		cwd = cwd,
 	})
 
-	editor_pane:send_text("nvim .\n")
-	bottom_pane:send_text("\n")
+	editor_pane:send_text("v\n")
+	-- bottom_pane:send_text("\n")
 	-- right_pane:send_text("agent \n")
 
 	editor_pane:activate()
