@@ -30,22 +30,22 @@ $line_break$character
 palette = "kanagawa_dragon"
 
 [palettes.kanagawa_dragon]
-base      = "#0d0c0c"   # sumi ink
-surface0  = "#181616"   # dragon background
-surface1  = "#282727"
-text       = "#dcd7ba"  # parchment
-subtext    = "#c5c9c5"  # fog
+base = "#0d0c0c"     # sumi ink
+surface0 = "#181616" # dragon background
+surface1 = "#282727"
+text = "#dcd7ba"     # parchment
+subtext = "#c5c9c5"  # fog
 
-red        = "#c4746e"
-green      = "#8a9a7b"
-yellow     = "#c4b28a"
-blue       = "#7fb4ca"
-purple     = "#938aa9"
-teal       = "#7aa89f"
-orange     = "#e6c384"
+red = "#c4746e"
+green = "#8a9a7b"
+yellow = "#c4b28a"
+blue = "#7fb4ca"
+purple = "#938aa9"
+teal = "#7aa89f"
+orange = "#e6c384"
 
-bright_red    = "#e46876"
-bright_green  = "#87a987"
+bright_red = "#e46876"
+bright_green = "#87a987"
 bright_yellow = "#e6c384"
 
 [os]

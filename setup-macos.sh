@@ -32,6 +32,7 @@ brew install ripgrep
 brew install fd
 brew install neovim
 brew install lazygit
+brew install git-delta # optional pagination for git
 # GUIs
 brew install --cask raycast
 brew install --cask google-chrome
@@ -58,3 +59,4 @@ stow starship
 stow nvim
 stow git
 stow npm
+stow git-delta # optional pagination for git
