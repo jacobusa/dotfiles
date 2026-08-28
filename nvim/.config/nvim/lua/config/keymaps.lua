@@ -31,3 +31,12 @@ end
 vim.keymap.set("x", "<leader>cl", console_log_selection, {
   desc = "Console log selection",
 })
+--
+-- Copy absolute path to clipboard
+vim.keymap.set("n", "<leader>pa", ':let @+ = expand("%:p")<CR>', { desc = "Copy absolute file path" })
+
+-- Copy relative path to clipboard
+vim.keymap.set("n", "<leader>pr", ':let @+ = expand("%")<CR>', { desc = "Copy relative file path" })
+
+-- Copy file name only to clipboard
+vim.keymap.set("n", "<leader>pf", ':let @+ = expand("%:t")<CR>', { desc = "Copy file name" })

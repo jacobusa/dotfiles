@@ -116,6 +116,9 @@
 - `<leader>uT` → toggle treesitter highlight
 - `<leader>ca` → LSP quick actions
 - `<leader>cl` → LSP info
+- `<leader>pa` → Copy absolute path to clipboard
+- `<leader>pf` → Copy file name to clipboard
+- `<leader>pr` → Copy relative path to clipboard
 - `SHIFT + K` → Show hover documentation
 - `twice SHIFT + K` → Go into hover documentation
 - `insertmode CTRL + SPACE` → activate completion menu
