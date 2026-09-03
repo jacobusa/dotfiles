@@ -50,6 +50,23 @@ config.window_padding = {
 	top = 0,
 	bottom = 0,
 }
+-- config.window_frame = {
+-- 	border_left_width = "0.5cell",
+-- 	border_right_width = "0.5cell",
+-- 	border_bottom_height = "0.25cell",
+-- 	border_top_height = "0.25cell",
+--
+-- 	border_left_color = "purple",
+-- 	border_right_color = "purple",
+-- 	border_bottom_color = "purple",
+-- 	border_top_color = "purple",
+-- }
+-- config.window_padding = {
+-- 	left = "1cell",
+-- 	right = "1cell",
+-- 	top = "1cell",
+-- 	bottom = "1cell",
+-- }
 config.hide_tab_bar_if_only_one_tab = true
 
 local function ai_workspace(window, pane)
@@ -157,6 +174,8 @@ for i = 1, 9 do
 end
 
 config.colors = {
+	-- split = "#DCA561",
+	split = "#54546D",
 	tab_bar = {
 		background = "#000000", -- Kanagawa sumi-ish base
 		-- background = "#1F1F28", -- Kanagawa sumi-ish base
