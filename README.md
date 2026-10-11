@@ -77,6 +77,12 @@ chmod +x setup-macos.sh
 - setup raycast with shortcuts in ./shortcuts.md
 - extensive raycast setup not included in this repo
 
+#### 1password
+
+- setup 1password git token integration and plugins (claude, gh, AWS, Stripe)
+- use environment files to control secrets, watchtower to audit computer for plain text secrets
+- extensive 1password setup not included in this repo
+
 ## Ubuntu
 
 ### Run
