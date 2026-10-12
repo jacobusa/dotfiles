@@ -32,21 +32,23 @@ brew install ripgrep
 brew install fd
 brew install neovim
 brew install lazygit
-brew install git-delta # optional pagination for git
+brew install git-delta           # optional pagination for git
+brew install googleworkspace-cli # optional CLI for humand and agents
 # GUIs
 brew install --cask raycast
 brew install --cask google-chrome
 brew install --cask wezterm@nightly # nightly because the stable release version has weird rendering bugs
 brew install --cask docker          # may need to install rosetta
 brew install --cask font-jetbrains-mono-nerd-font
-brew install --cask cursor     # optionsl
-brew install --cask 1password  # optionsl
-brew install --cask notion     # optionsl
-brew install --cask linear     # optionsl
-brew install --cask rectangle  # optionsl
-brew install --cask spotify    # optionsl
-brew install --cask zoom       # optionsl
-brew install --cask cursor-cli # optionsl, might need to install using curl manually because brew is not working with it
+brew install --cask cursor      # optionsl
+brew install --cask claude-code # optionsl
+brew install --cask 1password   # optionsl
+brew install --cask notion      # optionsl
+brew install --cask linear      # optionsl
+brew install --cask rectangle   # optionsl
+brew install --cask spotify     # optionsl
+brew install --cask zoom        # optionsl
+brew install --cask cursor-cli  # optionsl, might need to install using curl manually because brew is not working with it
 
 # -----------------------------------------------------
 #  Dotfiles

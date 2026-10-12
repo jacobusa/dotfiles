@@ -36,8 +36,8 @@ config.color_scheme = "Kanagawa (Gogh)"
 config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" })
 config.font_size = 12
 
-config.enable_tab_bar = true
-config.use_fancy_tab_bar = false
+-- config.enable_tab_bar = true
+config.use_fancy_tab_bar = true
 
 config.window_decorations = "RESIZE"
 -- config.window_background_opacity = 0.9

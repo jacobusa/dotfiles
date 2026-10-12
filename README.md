@@ -67,7 +67,7 @@ chmod +x setup-macos.sh
 
 #### read through script and fix the errors
 
-- homebrew
+- homebrew. Does not update, put reminder to run brew update && brew upgrade once in a while
 - git
 - dotfiles using stow
 - Zsh uses zinit package manager for things related to zsh. read .zshrc
@@ -80,7 +80,8 @@ chmod +x setup-macos.sh
 #### 1password
 
 - setup 1password git token integration and plugins (claude, gh, AWS, Stripe)
-- use environment files to control secrets, watchtower to audit computer for plain text secrets
+- use environment files to control env/MCP secrets (linear, notion, google workspace)
+- watchtower to audit computer for plain text secrets
 - extensive 1password setup not included in this repo
 
 ## Ubuntu
