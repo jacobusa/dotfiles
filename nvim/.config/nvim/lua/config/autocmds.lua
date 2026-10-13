@@ -43,3 +43,17 @@
 --     vim.api.nvim_set_hl(0, "SnacksPickerPathHidden", { fg = "#585b70" })
 --   end,
 -- })
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "markdown", "markdown.mdx" },
+  callback = function(args)
+    vim.b[args.buf].autoformat = false
+    vim.diagnostic.enable(false, { bufnr = args.buf })
+    -- vim.opt_local.conceallevel = 0
+    vim.opt_local.wrap = false
+
+    -- Disable LSP features for this buffer
+    -- vim.lsp.stop_client(vim.tbl_map(function(client)
+    --   return client.id
+    -- end, vim.lsp.get_clients({ bufnr = args.buf })))
+  end,
+})
