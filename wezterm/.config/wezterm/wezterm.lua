@@ -83,7 +83,7 @@ local function ai_workspace(window, pane)
 		size = 0.5,
 		cwd = cwd,
 	})
-	right_pane:send_text("agent\n")
+	right_pane:send_text("claude\n")
 	local bottom_pane = editor_pane:split({
 		direction = "Bottom",
 		size = 0.4,
