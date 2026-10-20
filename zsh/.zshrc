@@ -79,6 +79,9 @@ alias cdd='command cd'
 alias cdf='cd "$(dirname "$(fzf)")"'
 # search files
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
+# agent separation
+alias consuela='CLAUDE_CONFIG_DIR=~/.claude-consuela claude'
+alias agent='CLAUDE_CONFIG_DIR=~/.claude-work claude'
 
 
 # Shell integrations
