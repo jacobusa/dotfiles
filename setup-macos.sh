@@ -19,7 +19,7 @@ chsh -s $(zsh)
 # CLIs
 brew install git
 brew install stow
-# brew install docker
+# brew install docker  # can just use cask for now
 brew install starship
 brew install fzf
 brew install eza
@@ -27,12 +27,13 @@ brew install zoxide
 brew install bat
 brew install screenfetch
 brew install nvm
+brew install gh # optional for giithub CLI
 # neovim and related
 brew install ripgrep
 brew install fd
 brew install neovim
 brew install lazygit
-brew install git-delta           # optional pagination for git
+brew install git-delta           # optional pagination for git and lazygit
 brew install googleworkspace-cli # optional CLI for humand and agents
 # GUIs
 brew install --cask raycast
@@ -61,4 +62,4 @@ stow starship
 stow nvim
 stow git
 stow npm
-stow git-delta # optional pagination for git
+stow git-delta # optional pagination for git and lazygit

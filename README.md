@@ -1,10 +1,11 @@
 # Dotfiles
+---
 
 ## Below section is for using hardcoded ssh key on disk for github authentication. Better approach would be 1password developer ssh agent
 
-## Generating git SSH Keys (MacOS/WSL/Linux)
+### Generating git SSH Keys (MacOS/WSL/Linux)
 
-## Generate a new SSH key
+#### Generate a new SSH key
 
 Follow this or continue with the steps below
 [github generate new ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=mac)
@@ -12,12 +13,14 @@ Follow this or continue with the steps below
  <br>
 
 ```bash
+### Do not need if using 1password ssh agent
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 ### Start the SSH agent and add the key
 
 ```bash
+### Do not need if using 1password ssh agent
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
@@ -25,6 +28,7 @@ ssh-add ~/.ssh/id_ed25519
 ### Copy the public key to the clipboard
 
 ```bash
+### if using 1password ssh agent, replace with copying 1password public key
 cat ~/.ssh/id_ed25519.pub
 ```
 
@@ -49,6 +53,7 @@ xcode-select --install
 ```bash
 git config --global user.name "name"
 git config --global user.email "your@email.com"
+# optional
 git config --global github.user "githubusername"
 ```
 
@@ -79,31 +84,8 @@ chmod +x setup-macos.sh
 
 #### 1password
 
-- setup 1password git token integration and plugins (claude, gh, AWS, Stripe)
+- setup 1password git ssh-agent.
+- 1password shell plugins with token integration and plugins (claude, gh, AWS, Stripe)
 - use environment files to control env/MCP secrets (linear, notion, google workspace)
 - watchtower to audit computer for plain text secrets
 - extensive 1password setup not included in this repo
-
-## Ubuntu
-
-### Run
-
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt update && sudo apt install -y git
-```
-
-### Clone the dotfile repo into `$HOME`
-
-```bash
-cd ~
-git clone git@github.com:jacobusa/dotfiles.git ~/dotfiles
-```
-
-### Run the setup Script
-
-```bash
-mkdir dotfiles
-chmod +x setup-ubuntu.sh
-./setup-ubuntu.sh
-```

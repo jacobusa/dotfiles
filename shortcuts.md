@@ -1,7 +1,6 @@
 # Keyboard Shortcuts
 
-- Shortcuts for mac only
-- These are listed from most general (work on most apps) to more specific (likely only work on that app and below) for that OS. They are cumilative as you move down
+- These are listed from most general (work on most apps) to more specific (likely only work on that app and below) for that OS. They are cumulative as you move down
 
 ## macOS
 
@@ -204,13 +203,3 @@
 - `CMD + K` → Toggle chat inline edit
 - `ESCAPE` → Close inline edit
 
-## Linux
-
-### i3
-
-- `$mod` === `OPTION`
-- `$mod + SPACE` → Launch application launcher
-- `$mod + 1` → Terminal
-- `$mod + 2` → Browser
-- `$mod + 3` → Cursor/NVIM
-- `$mod + 4` → Anythingc
