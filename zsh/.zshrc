@@ -61,8 +61,11 @@ alias .....="cd ../../../.."
 alias v="nvim"
 # alias vi="nvim"
 alias vim="nvim"
-alias r="z web && nvim ."
-alias d="z dotfiles && nvim ."
+alias dot="z dotfiles && nvim ."
+alias web="z ribbiot-web && nvim ."
+alias sup="z ribbiot-supabase && nvim ."
+alias work="z ribbiot-workbench && nvim ."
+alias con="z consuela && nvim ."
 # neovim lazygit
 alias g="lazygit"
 # list and find
