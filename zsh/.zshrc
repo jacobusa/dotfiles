@@ -2,6 +2,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/.local/bin:$PATH"
 export EDITOR='nvim'
 export XDG_CONFIG_HOME="$HOME/.config"
+#
+# 1password use desktop app sign in
+export OP_BIOMETRIC_UNLOCK_ENABLED=true
 
 # Create the local bin directory if it doesn't exist
 mkdir -p "$HOME/.local/bin"
@@ -88,3 +91,4 @@ alias agent='CLAUDE_CONFIG_DIR=~/.claude-work claude'
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+

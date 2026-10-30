@@ -27,7 +27,6 @@ brew install zoxide
 brew install bat
 brew install screenfetch
 brew install nvm
-brew install gh # optional for giithub CLI
 # neovim and related
 brew install ripgrep
 brew install fd
@@ -35,6 +34,9 @@ brew install neovim
 brew install lazygit
 brew install git-delta           # optional pagination for git and lazygit
 brew install googleworkspace-cli # optional CLI for humand and agents
+# optional CLI's with 1password auth
+brew install 1password-cli
+brew install gh
 # GUIs
 brew install --cask raycast
 brew install --cask google-chrome

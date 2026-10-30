@@ -84,8 +84,9 @@ chmod +x setup-macos.sh
 
 #### 1password
 
-- setup 1password git ssh-agent.
-- 1password shell plugins with token integration and plugins (claude, gh, AWS, Stripe)
+- setup 1password git ssh-agent, follow instructions to have ssh private key managed through 1password and mac biometrics
+- 1password CLI with shell plugins  (claude, gh, AWS, Stripe). Prefer authenticating op CLI shell plugins with desktop integration over service token integration  (https://www.1password.dev/cli/get-started)
+- go through each shell plugin and `op plugin init  (gh|aws|etc)`
 - use environment files to control env/MCP secrets (linear, notion, google workspace)
 - watchtower to audit computer for plain text secrets
 - extensive 1password setup not included in this repo
