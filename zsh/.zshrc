@@ -3,8 +3,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR='nvim'
 export XDG_CONFIG_HOME="$HOME/.config"
 #
-# 1password use desktop app sign in
-export OP_BIOMETRIC_UNLOCK_ENABLED=true
 
 # Create the local bin directory if it doesn't exist
 mkdir -p "$HOME/.local/bin"
@@ -25,6 +23,9 @@ source "${ZINIT_HOME}/zinit.zsh"
 # zinit self-update
 # zinit update --all
 
+# 1password stuff
+export OP_BIOMETRIC_UNLOCK_ENABLED=true
+source /Users/jacobus/.config/op/plugins.sh
 
 # Completions
 bindkey '^p' history-search-backward
