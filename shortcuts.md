@@ -48,7 +48,7 @@
 - `CMD + SHIFT + a` → Power function that opens folder in neovim, agent panel, and terminal pane layout. Good with top right window focus
 - `CMD + T/W` → Open/close pane
 - `CMD + SHIFT + T` → Move current pane to new tab
-- `CTRL + \`` → Focus top right window, useful for hiding/showing bottom terminal and side agent pane
+- `CTRL + \`` → Focus top right window, useful for hiding/showing bottom terminal and side agent pane. Tab shows `[Z]` while zoomed
 - `ALT + {number}` → Open numbered tabs
 - `ALT + r` → rename tab
 - `CTRL + TAB` → Go to next tab

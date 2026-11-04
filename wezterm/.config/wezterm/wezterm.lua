@@ -69,6 +69,17 @@ config.window_padding = {
 -- }
 config.hide_tab_bar_if_only_one_tab = true
 
+-- Show [Z] on the tab when its active pane is zoomed
+wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
+	local title = tab.tab_title
+	if not title or #title == 0 then
+		title = tab.active_pane.title
+	end
+
+	local zoomed = tab.active_pane.is_zoomed and "[Z] " or ""
+	return wezterm.truncate_right(zoomed .. (tab.tab_index + 1) .. ": " .. title, max_width)
+end)
+
 local function ai_workspace(window, pane)
 	local cwd = pane:get_current_working_dir()
 
