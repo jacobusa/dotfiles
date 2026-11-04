@@ -3,9 +3,9 @@ return {
     "Mofiqul/vscode.nvim",
     lazy = false,
     priority = 1000,
-    config = function()
-      vim.cmd.colorscheme("vscode")
-    end,
+    -- config = function()
+    --   vim.cmd.colorscheme("vscode")
+    -- end,
   },
   {
     "catppuccin/nvim",
@@ -41,10 +41,9 @@ return {
         },
       },
     },
-
-    -- config = function()
-    --   vim.cmd.colorscheme("kanagawa-dragon")
-    -- end,
+    config = function()
+      vim.cmd.colorscheme("kanagawa-dragon")
+    end,
   },
   {
     "navarasu/onedark.nvim",
